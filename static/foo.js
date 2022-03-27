@@ -5,7 +5,7 @@ function doTheMagicThing() {
   );
   document.head.insertAdjacentHTML(
     "afterend",
-    '<link    rel="stylesheet"    href="https://webprojekt.link/foo.css"  />'
+    '<link    rel="stylesheet"    href="https://www.webprojekt.link/foo.css"  />'
   );
 
   const i = Array.from(document.getElementsByClassName("title")).find(

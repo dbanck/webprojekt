@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Webprojekt",
   tagline: "Einstieg in die Webentwicklung",
-  url: "https://webprojekt.link",
+  url: "https://www.webprojekt.link",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
