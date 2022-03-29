@@ -1,32 +1,15 @@
 function doTheMagicThing() {
   document.head.insertAdjacentHTML(
     "afterend",
-    '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />'
-  );
-  document.head.insertAdjacentHTML(
-    "afterend",
     '<link rel="stylesheet" href="https://www.webprojekt.link/foo.css" />'
   );
 
   const i = Array.from(document.getElementsByClassName("title")).find(
     (c) => c.textContent === "Webprojekt – Einstieg in die Webentwicklung"
   );
-  if (i) {
-    i.parentElement.parentElement.classList.add(
-      "dom-party",
-      "animate__animated",
-      "animate__slow"
-    );
-
-    /**
-      i.parentElement.parentElement.addEventListener("mouseenter", function( event ) {
-        event.target.classList.add('animate__tada');
   
-        setTimeout(function() {
-          event.target.classList.remove('animate__tada');
-        }, 2000);
-      }, false);
-  **/
+  if (i) {
+    i.parentElement.parentElement.classList.add("dom-party");
   }
 
   const x = document.querySelector('[src*="bb.jpg"]');
