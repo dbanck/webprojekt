@@ -3,6 +3,7 @@
   padding: 20px;
   font-size: 1.2rem;
   font-style: italic;
+  margin-bottom: 8px;
 }
 
 [data-theme="dark"] .subline {

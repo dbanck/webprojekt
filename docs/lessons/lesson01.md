@@ -1,5 +1,6 @@
 ---
 title: "Lektion 01: Auftakt"
+sidebar_label: "01: Auftakt"
 sidebar_position: 1
 sidebar_class_name: hidden
 ---
@@ -7,6 +8,8 @@ sidebar_class_name: hidden
 import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Wer bin ich und was mache ich eigentlich hier?" />
+
+[Folien](https://docs.google.com/presentation/d/1T1VxoPsMRBB2l_o2H6wj5UjW_iJ-cHuaJOs3A_DF2IM)
 
 ## Hinweise zum Ablauf
 
