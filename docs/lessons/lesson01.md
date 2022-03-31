@@ -1,9 +1,8 @@
 ---
+title: "Lektion 01: Auftakt"
 sidebar_position: 1
 sidebar_class_name: hidden
 ---
-
-# Lektion 01: Auftakt
 
 ## Hinweise zum Ablauf
 
