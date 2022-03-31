@@ -4,6 +4,10 @@ sidebar_position: 1
 sidebar_class_name: hidden
 ---
 
+import Subline from '@site/src/components/Docs/Subline';
+
+<Subline text="Wer bin ich und was mache ich eigentlich hier?" />
+
 ## Hinweise zum Ablauf
 
 Ziel: Grundlagen erlernen und in einem einfachen Projekt direkt umsetzen

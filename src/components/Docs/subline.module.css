@@ -1,0 +1,10 @@
+.subline {
+  background: var(--ifm-color-gray-200);
+  padding: 20px;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+[data-theme="dark"] .subline {
+  background: var(--ifm-color-gray-800);
+}
