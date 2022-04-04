@@ -1,8 +1,9 @@
 ---
+title: Notizen
 sidebar_position: 1
 ---
 
-# Allgemein
+## Allgemein
 
 - Umfangreiche Sammlung zum Nachschlagen zu allen Themen rund um die Webentwicklung: https://developer.mozilla.org/en-US/
 
