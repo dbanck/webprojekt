@@ -17,29 +17,27 @@ import ProminentLink from '@site/src/components/Docs/ProminentLink';
 
 Ziel: Grundlagen erlernen und in einem einfachen Projekt direkt umsetzen
 
-Dank Corona findet der Kurs solange notwendig online statt. Daher möchte ich euch ein paar Verhaltensweisen nahelegen, so dass der Ablauf möglichst problemlos ist
+Hier möchten wir euch ein paar Verhaltensweisen nahelegen, so dass der Ablauf möglichst problemlos ist
 
 - Wir nutzen Zoom für die Durchführung der wöchentlichen Sessions
 
   - Das Zoom-Meeting startet ~10 Minuten vor offiziellem Beginn der Session, damit sich jeder einwählen kann und wir rechtzeitig anfangen können. Nutzt die Zeit aber gerne schon, um zu chatten.
-  - Jeder sollte zumindest die Möglichkeit haben per Audio, mit Video ist auf jeden Fall netter, teilzunehmen. Ihr seid in den Lektionen auch gefordert, wir entwickeln vieles gemeinsam und wir wollen uns austauschen
-  - Ich werde mit Webcam streamen und euch auch meinen Bildschirminhalt teilen, eine Teilnahme über das Handy ist also aufgrund der geringen Größe schwierig
-  - Nutzt Zoom aber auch gerne, um euch zu connecten, wenn ihr Fragen habt oder ähnliches
+  - Jeder sollte die Möglichkeit haben per Audio und Video teilzunehmen. Ihr seid in den Lektionen auch gefordert, wir entwickeln vieles gemeinsam und wir wollen uns austauschen
+  - Wir werden mit Webcam streamen und euch auch unseren Bildschirminhalt teilen, eine Teilnahme über das Handy ist also aufgrund der geringen Bildschirmgröße schwierig
+  - Nutzt Zoom auch gerne, um euch zu connecten, wenn ihr Fragen habt oder ähnliches
 
 - Vor und nach einer Session
 
   - Mattermost als Plattform für Austausch jeglicher Art es gibt einen eigenen Kurschannel **C_Webprojekt – Einstieg in die Webentwicklung**; dieser ist nur euch vorbehalten. Also seid offen; wir sind unter uns
-  - nutzt private Nachrichten nur für Dinge, die nicht auch für andere Teilnehmer relevant sein könnten, bspw. individuelle Fragen zum Projekt/einem Problem
-  - helft euch gegenseitig, ich versuche möglichst viel auch außerhalb der Kurszeiten zu beantworten, aber vielleicht hat jemand anderes aus dem Kurs bereits das gleiche Problem gehabt. Dann unterstützt euch und traut euch ruhig, zu fragen!
+  - nutzt private Nachrichten nur für Dinge, die nicht auch für andere Teilnehmende relevant sein könnten, bspw. individuelle Fragen zum Projekt/einem Problem
+  - helft euch gegenseitig, wir versuchen möglichst viel auch außerhalb der Kurszeiten zu beantworten, aber vielleicht hat jemand anderes aus dem Kurs bereits das gleiche Problem gehabt. Dann unterstützt euch und traut euch ruhig, zu fragen!
 
 - Während der Session:
 
   - gerne immer Fragen stellen, wie wenn wir im gleichen Raum wären. Wie ein “Handheben” funktionieren kann, müssen wir gemeinsam herausfinden
-  - nicht “verstecken”, Situation ist für alle schwieriger so, aber müssen das beste draus machen
-    - Vor allem in unserem Beruf ist es sehr wichtig, asynchron und remote arbeiten zu können. Also ein guter Test!
+  - nicht “verstecken”: vor allem in unserem Beruf ist es sehr wichtig, asynchron und remote arbeiten zu können
   - Wie bereits weiter oben geschrieben, wollen wir während der Sessions gemeinsam etwas erarbeiten. Seid also aktiv dabei, denkt mit, gebt Input und stellt viele Fragen
   - Umfragen als “Test” nach Theorie-Teil, anonym, nur für euch um euch selbst zu überprüfen und die vorherigen Inhalte noch einmal zu festigen
-  - Zoom bietet auch die Möglichkeit eine Session aufzunehmen. Wenn ihr euch also die Inhalte noch einmal angucken wollt, schaltet das einfach an. ACHTUNG! Nur zur privaten Verwendung, keine Veröffentlichung oder Ähnliches erlaubt (Persönlichkeitsrechte anderer Teilnehmer, Urheberrecht, etc.)
 
 - Ablauf einer Lektion
 
@@ -47,15 +45,15 @@ Dank Corona findet der Kurs solange notwendig online statt. Daher möchte ich eu
   - Theoretischer Input und/oder Live-Coding, zusammen mit euch
   - Hausaufgabe vorstellen; Material wird zur Verfügung gestellt
 
-- Zusammenfassend: Nutzt die Tools intensiv, ich versuche auf alles zu antworten, vernetzt euch untereinander, tauscht euch aus, stellt Fragen und seid neugierig
+- Zusammenfassend: Nutzt die Tools intensiv, wir versuchen auf alles zu antworten, vernetzt euch untereinander, tauscht euch aus, stellt Fragen und seid neugierig
 
-- Zusätzliches Material, aber hauptsächlich Codebeispiele, werde ich euch auf https://github.com/bastibuck/webprojekt-wise-21-22 zur Verfügung stellen. Eine genauere Einführung erhaltet ihr zu gegebener Zeit. Speichert euch den Link aber gerne schon mal als Lesezeichen ab und guckt euch um
+- Zusätzliches Material, aber hauptsächlich Codebeispiele, werden wir euch auf GitHub zur Verfügung stellen. Eine genauere Einführung erhaltet ihr zu gegebener Zeit.
 
 - Abgabe von Hausaufgaben
   - kleine Aufgaben, zu dem Thema der Lektion (ihr sollt weiter genug Zeit haben, am eigenen Projekt zu arbeiten)
   - freiwillig, aber Kurs lebt von Teilnahme und so kriegt ihr Feedback
   - bis spätestens Sonntag vor einer Session, 10:00 Uhr morgens
-  - Abgabe per direkter Nachricht in Mattermost, Form kann sich im Laufe des Kurses ändern
+  - Abgabe per Nachricht im Channel in Mattermost; Form kann sich im Laufe des Kurses ändern
   - Ggf. Vorstellung/Besprechung im nächsten Termin (anonym; wenn es deine Abgabe ist, kannst du gerne in der Session Fragen stellen, musst es aber nicht)
 
 ## Wie funktioniert das Internet?
@@ -149,12 +147,13 @@ function goNext() {
 
 ## Tools
 
-Wir werden einige Werkzeuge benötigen, um unsere eigene Website zu programmieren. Die verlinkten Tools werde ich nutzen und empfehle ich euch auch. So fällt es euch leichter mir zu folgen und selber tätig zu werden.
+Wir werden einige Werkzeuge benötigen, um unsere eigene Website zu programmieren. Die verlinkten Tools werden wir nutzen und empfehlen wir euch auch. So fällt es euch leichter uns zu folgen und selber tätig zu werden.
 
 - Editor
-  - VS Code
+  - [VS Code](https://code.visualstudio.com/)
   - Sublime Text
   - Atom
+  - Vim
 - Browser mit Entwicklerwerkzeugen
   - Chrome
   - Firefox
@@ -169,9 +168,9 @@ Bitte richtet euch euren Rechner so ein, dass ihr
 1. einen Browser mit Entwicklertools installiert habt
 
 Macht euch bitte außerdem Gedanken (Thema, Name, Umfang, Inhalte, offene Fragen, Probleme, …), welches **Projekt** ihr im Rahmen des Kurses entwickeln wollt.
-Schreibt eure Gedanken im neuen Editor in ein Dokument, speichert es und schickt es mir über den Chat zu. Bereitet euch auch vor, im kommenden Termin eure Idee kurz den anderen vorzustellen.
+Schreibt eure Gedanken im neuen Editor in ein Dokument, speichert es und schickt es uns über den Chat zu. Bereitet euch auch vor, im kommenden Termin eure Idee kurz den anderen vorzustellen.
 
 **Hinweise**:
 Bei der Wahl der Form (Prosa, Stichpunkte, Mindmap, …) seid ihr vollkommen frei. Es sollte lediglich ein Textdokument sein, das Dateiformat ist aber (relativ) egal. Bitte verwendet ein Format, das im Klartext im Editor geschrieben und gelesen werden kann (kein Word etc.).
 
-In den Materialien (Link siehe oben) findet ihr ein Beispiel, das in **Markdown** geschrieben ist. Dies ist ein sehr verbreitetes Format zum schnellen, vereinfachten Erzeugen von Textdokumenten mit strukturierten Inhalten (eben wie HTML). Wie ihr so ein Format nutzen könnt, habe ich euch in eben diesem File beschrieben.
+In den Materialien findet ihr ein Beispiel, das in **Markdown** geschrieben ist. Dies ist ein sehr verbreitetes Format zum schnellen, vereinfachten Erzeugen von Textdokumenten mit strukturierten Inhalten (eben wie HTML). Wie ihr so ein Format nutzen könnt, haben wir euch in eben diesem File beschrieben.
