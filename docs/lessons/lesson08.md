@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Make it fit" />
 
-[Folien](https://docs.google.com/presentation/d/1GqGce81iVDWo6ehpFVKvPp4TFT7EGsvnmoy4oCLUAC4)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1GqGce81iVDWo6ehpFVKvPp4TFT7EGsvnmoy4oCLUAC4">Folien</ProminentLink>
 
 ## Weekly 🔥 tips
 

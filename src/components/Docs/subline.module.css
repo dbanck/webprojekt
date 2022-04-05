@@ -3,7 +3,9 @@
   padding: 20px;
   font-size: 1.2rem;
   font-style: italic;
-  margin-bottom: 8px;
+  margin-bottom: calc(
+    var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading)
+  );
 }
 
 [data-theme="dark"] .subline {

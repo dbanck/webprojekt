@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Stein auf Stein" />
 
-[Folien](https://docs.google.com/presentation/d/14V5MNvSACfX46sW0Ee2-OtNKKbF0Pcyc2i5-p4S97NA)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/14V5MNvSACfX46sW0Ee2-OtNKKbF0Pcyc2i5-p4S97NA">Folien</ProminentLink>
 
 ## Weekly 🔥 tips
 

@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Dynamische Inhalte durch JS" />
 
-[Folien](https://docs.google.com/presentation/d/1rxv2lCl-0EDGCeyh69hllK3kL0Ck5-qgnJ-3UJbIp50)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1rxv2lCl-0EDGCeyh69hllK3kL0Ck5-qgnJ-3UJbIp50">Folien</ProminentLink>
 
 ## Weekly 🔥 tips
 

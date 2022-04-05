@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Wie wird das jetzt schön?" />
 
-[Folien](https://docs.google.com/presentation/d/1-k-FIIybRUgFufQQh4YVpDepWf3IbzKAy7AKQB4dTao)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1-k-FIIybRUgFufQQh4YVpDepWf3IbzKAy7AKQB4dTao">Folien</ProminentLink>
 
 ## Feedback Hausaufgaben
 

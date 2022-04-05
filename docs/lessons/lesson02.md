@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Inhalte strukturieren" />
 
-[Folien](https://docs.google.com/presentation/d/1m137bsw10cKx1GSohQsVWfy7AH5kgn0SkSAr8g_1LSY)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1m137bsw10cKx1GSohQsVWfy7AH5kgn0SkSAr8g_1LSY">Folien</ProminentLink>
 
 ## Feedback Hausaufgaben
 
@@ -38,7 +40,7 @@ import Subline from '@site/src/components/Docs/Subline';
 ## Weekly 🔥 tips
 
 _Ich versuche euch neben den Inhalten zum Webprojekt auch jede Woche noch ein paar Tipps vorzubereiten, die die Arbeit am Computer beschleunigen oder einfacher machen.
-Wenn ihr hier gezielt Wünsche habt, meldet euch gerne bei mir. Diese weekly 🔥 tips werde ich jede Session kurz einstreuen. Die Tastaturkürzel beziehen sich immer auf Windows, sind aber für Mac OS meistens gleich._
+Wenn ihr hier gezielt Wünsche habt, meldet euch gerne bei mir. Diese weekly 🔥 tips werden wir jede Session kurz einstreuen. Die Tastaturkürzel beziehen sich immer auf Windows, sind aber für Mac OS meistens gleich._
 
 ### Basics
 
@@ -91,7 +93,7 @@ In HTML gibt es einen standardisierten Satz an Elementen, die der Browser kennt.
 
 Hier findet ihr eine Liste aller erlaubten HTML-Elemente: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-Diese Liste wirkt auf den ersten Blick sehr erdrückend, man nutzt in der Praxis aber nur einen Bruchteil dessen täglich. Die meisten sind Nischen-Elemente, die nur für ganz bestimmte Inhalte benötigt werden; diese muss ich dann auch erstmal googlen, wie diese verwendet werden. Die häufig verwendeten Elemente lernt man über die Zeit wie Vokabeln und kennt deren Verwendung genau.
+Diese Liste wirkt auf den ersten Blick sehr erdrückend, man nutzt in der Praxis aber nur einen Bruchteil dessen täglich. Die meisten sind Nischen-Elemente, die nur für ganz bestimmte Inhalte benötigt werden; diese müssen wir dann auch erstmal googlen, wie diese verwendet werden. Die häufig verwendeten Elemente lernt man über die Zeit wie Vokabeln und kennt deren Verwendung genau.
 
 HTML-Elemente werden durch **Tags** gekennzeichnet. Ein HTML-Element besteht (meistens) aus einem **öffnenden** und einem **schließenden Tag**. Dazwischen wird der Inhalt platziert.
 

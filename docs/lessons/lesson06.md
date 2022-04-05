@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Wenn dies, dann das" />
 
-[Folien](https://docs.google.com/presentation/d/1CS1gnl6RS-2Y5-K7RTI0qde6tK7UvRoESxMygHTqZ64)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1CS1gnl6RS-2Y5-K7RTI0qde6tK7UvRoESxMygHTqZ64">Folien</ProminentLink>
 
 ## Weekly 🔥 tips
 

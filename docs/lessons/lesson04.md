@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Schönheit 2.0" />
 
-[Folien](https://docs.google.com/presentation/d/1CGxDxY3hugHqQZCyG_fek_EufQo6onG3iPfX2Drrg0g)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1CGxDxY3hugHqQZCyG_fek_EufQo6onG3iPfX2Drrg0g">Folien</ProminentLink>
 
 ## Feedback Hausaufgabe
 

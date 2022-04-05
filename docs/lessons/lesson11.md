@@ -9,6 +9,8 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Look at my website" />
 
-[Folien](https://docs.google.com/presentation/d/1KjQ1i-Q4-fflU9KK-F2TBTRBrjyAuqMSmoY0dQOmAMI)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1KjQ1i-Q4-fflU9KK-F2TBTRBrjyAuqMSmoY0dQOmAMI">Folien</ProminentLink>
 
 ## Danke für die schönen Präsentationen

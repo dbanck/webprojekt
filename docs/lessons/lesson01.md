@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Wer bin ich und was mache ich eigentlich hier?" />
 
-[Folien](https://docs.google.com/presentation/d/1T1VxoPsMRBB2l_o2H6wj5UjW_iJ-cHuaJOs3A_DF2IM)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1T1VxoPsMRBB2l_o2H6wj5UjW_iJ-cHuaJOs3A_DF2IM">Folien</ProminentLink>
 
 ## Hinweise zum Ablauf
 

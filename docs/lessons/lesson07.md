@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Wenn dies, dann das" />
 
-[Folien](https://docs.google.com/presentation/d/1nYr8Eq0vkfwCLHqhGweGLxXr1c7Xq-fPF_vrB7ID06Q)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/1nYr8Eq0vkfwCLHqhGweGLxXr1c7Xq-fPF_vrB7ID06Q">Folien</ProminentLink>
 
 ## JavaScript Theorie
 

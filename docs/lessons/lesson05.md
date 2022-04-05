@@ -9,7 +9,9 @@ import Subline from '@site/src/components/Docs/Subline';
 
 <Subline text="Wissen wird Website" />
 
-[Folien](https://docs.google.com/presentation/d/14EoCps17dZHYhCic13CM6KHBDhbAWhxDDTiuiPZs7M4)
+import ProminentLink from '@site/src/components/Docs/ProminentLink';
+
+<ProminentLink link="https://docs.google.com/presentation/d/14EoCps17dZHYhCic13CM6KHBDhbAWhxDDTiuiPZs7M4">Folien</ProminentLink>
 
 ## Weekly 🔥 tips
 
