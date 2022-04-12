@@ -50,11 +50,17 @@ Hier möchten wir euch ein paar Verhaltensweisen nahelegen, so dass der Ablauf m
 - Zusätzliches Material, aber hauptsächlich Codebeispiele, werden wir euch auf GitHub zur Verfügung stellen. Eine genauere Einführung erhaltet ihr zu gegebener Zeit.
 
 - Abgabe von Hausaufgaben
+
   - kleine Aufgaben, zu dem Thema der Lektion (ihr sollt weiter genug Zeit haben, am eigenen Projekt zu arbeiten)
   - freiwillig, aber Kurs lebt von Teilnahme und so kriegt ihr Feedback
   - bis spätestens Sonntag vor einer Session, 10:00 Uhr morgens
   - Abgabe per Nachricht im Channel in Mattermost; Form kann sich im Laufe des Kurses ändern
   - Ggf. Vorstellung/Besprechung im nächsten Termin (anonym; wenn es deine Abgabe ist, kannst du gerne in der Session Fragen stellen, musst es aber nicht)
+
+- **Was dieser Kurs nicht ist**
+
+  - in diesem Kurs lernt ihr keine serverseitge Programmierung (z.B. PHP oder Python)
+  - kein Einstieg in die Bedienung von Content Management oder Shop Systemen (Wordpress, Drupal)
 
 ## Wie funktioniert das Internet?
 
