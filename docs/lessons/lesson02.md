@@ -40,7 +40,7 @@ import ProminentLink from '@site/src/components/Docs/ProminentLink';
 ## Weekly 🔥 tips
 
 _Ich versuche euch neben den Inhalten zum Webprojekt auch jede Woche noch ein paar Tipps vorzubereiten, die die Arbeit am Computer beschleunigen oder einfacher machen.
-Wenn ihr hier gezielt Wünsche habt, meldet euch gerne bei mir. Diese weekly 🔥 tips werden wir jede Session kurz einstreuen. Die Tastaturkürzel beziehen sich immer auf Windows, sind aber für Mac OS meistens gleich._
+Wenn ihr hier gezielt Wünsche habt, meldet euch gerne bei uns. Diese weekly 🔥 tips werden wir jede Session kurz einstreuen. Die Tastaturkürzel beziehen sich immer auf Windows, sind aber für Mac OS meistens gleich._
 
 ### Basics
 
@@ -103,7 +103,7 @@ Es gibt jedoch Ausnahmen und ihr habt eines bereits im Kurs kennengelernt; das T
 
 ## Live Coding: Genug Theorie
 
-_Dieser Teil hat live stattgefunden und ist nur sehr schwer zusammenzufassen. Ich versuche es aber mal. Ihr findet das Ergebnis aber auf GitHub im Kurs-Projekt. Hinweis: ich führe hier oft nur das öffnende Tag auf, es gehört aber IMMER auch ein schließendes Tag dazu._
+_Dieser Teil hat live stattgefunden und ist nur sehr schwer zusammenzufassen. Wir versuchen es aber mal. Ihr findet das Ergebnis aber auf GitHub im Kurs-Projekt. Hinweis: wir führen hier oft nur das öffnende Tag auf, es gehört aber IMMER auch ein schließendes Tag dazu._
 
 ### Einstieg HTML-Elemente
 
@@ -197,7 +197,7 @@ Wichtig ist nur, dass wir durch Schreiben von HTML heute **keine** Gestaltung be
 ## Hausaufgabe
 
 Bitte installiert euch in eurem VS Code ebenfalls die **Prettier-Extension** und richtet es so ein, dass das Dokument beim Speichern automatisch formatiert wird. Wenn ihr einen anderen Editor verwenden solltet, kann es sein, dass es eine ähnliche Erweiterung für Prettier gibt.
-Stellt so oder so sicher, dass eure Formatierung leserlich bleibt, es hilft nicht nur euch bei der Entwicklung, Fehler zu vermeiden und schneller zu arbeiten, sondern hilft auch anderen Entwicklern, sich schnell zurecht zu finden, wenn ihr mal Hilfe benötigt oder ich eure Hausaufgaben anschaue.
+Stellt so oder so sicher, dass eure Formatierung leserlich bleibt, es hilft nicht nur euch bei der Entwicklung, Fehler zu vermeiden und schneller zu arbeiten, sondern hilft auch anderen Entwicklern, sich schnell zurecht zu finden, wenn ihr mal Hilfe benötigt oder wir eure Hausaufgaben anschauen.
 
 Entwickelt ein HTML-Dokument, das euer Lieblingsrezept darstellt. Hierbei sind der Kreativität keine Grenzen gesetzt. Orientiert euch an eurem Lieblings-Food-Blog, nutzt 1-zu-1 die Inhalte aus einem Chefkoch-Rezept oder denkt euch ein eigenes abgefahrenes Rezept aus. Es muss gar nicht eine klassische Anleitung zum Nachkochen sein; ihr könnt auch die Geschichte, die Herkunft oder ähnliches eines Rezepts darstellen.
 Wichtig ist nur, dass **alle heute gelernten HTML-Elemente** vorhanden sind. Ihr könnt aber auch gerne mit Hilfe der Liste von HTML-Elementen weitere Inhalte einfügen.
@@ -205,9 +205,9 @@ Wichtig ist nur, dass **alle heute gelernten HTML-Elemente** vorhanden sind. Ihr
 ### Hinweise
 
 - Auf GitHub findet ihr hier eine Musterlösung für mein Rezept. Dieses dient aber nur als Hilfestellung. Startet bitte mit einer leeren HTML-Datei und erarbeitet euch nach und nach den Inhalt selber (kein einfaches ersetzen der Inhalte!). Nutzt eure eigenen Ideen zu Reihenfolge, Auswahl und Struktur der Inhalte. Seid kreativ!
-- nutzt in euren HTML-Dateien bitte keine Links zu lokalen Bildern - alle müssen über das Internet erreichbar sein - sonst kann ich diese bei mir nicht sehen
+- nutzt in euren HTML-Dateien bitte keine Links zu lokalen Bildern - alle müssen über das Internet erreichbar sein - sonst können wir diese bei uns nicht sehen
   - nutzt bspw. [Unsplash](https://unsplash.com/s/photos/pasta)
-- Sendet mir eure HTML-Datei bitte per direkter Nachricht in Mattermost
+- Sendet uns eure HTML-Datei bitte als Nachricht im Channel in Mattermost
 - In diesem Video findet ihr die Inhalte der ersten beiden Lektionen noch einmal gut zusammengefasst https://youtu.be/SF_Xl5TOGlY - schaut es euch gerne an, wenn ihr einige Dinge noch einmal wiederholen und vertiefen wollt
-- Wer will, kann auch zusätzlich die Aufgabe von Colt (Tutor aus dem Video) machen, die er am Ende stellt und ebenfalls mit abgeben. Ich werde mir beides anschauen und kurzes Feedback geben
+- Wer will, kann auch zusätzlich die Aufgabe von Colt (Tutor aus dem Video) machen, die er am Ende stellt und ebenfalls mit abgeben. Wir werden uns beides anschauen und kurzes Feedback geben
 - Wenn ihr Fragen haben solltet, stellt sie frühzeitig im Channel
