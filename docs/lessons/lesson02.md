@@ -149,16 +149,6 @@ HTML-Elemente lassen sich also ineinander verschachteln! Der Inhalt eines Elemen
 
 Ein weiteres Beispiel, das wir kennengelernt haben, sind geordnete (`<ol>`) und ungeordnete Listen (`<ul>`). Diese enthalten ein umschließendes Element, das die Art der Liste definiert (geordnet, ungeordnet) und Listeneinträge (`<li>`), die dann untereinander aufgeführt werden. In diesem Beispiel ist außerdem noch ein `<strong>` Element in einem der List-Items geschachtelt.
 
-### Inline vs. Block-Elemente
-
-HTML-Elemente sind in zwei Kategorien geteilt: **Block-Elemente** und **Inline-Elemente**.
-
-![Erklärung von Block-Elementen und Inline-Elementen](/img/lessons/02/inline-block.jpg)
-
-Wir haben beides schon kennengelernt. Überschrift und Absätze sind typische Beispiele für Block-Elemente. Sie nehmen (standardmäßig) die volle Breite ein, so dass nachfolgende Elemente in die nächste Zeile rutschen.
-
-Inline-Elemente dagegen werden, wie der Name schon vermuten lässt, in der gleichen Zeile dargestellt, sie nehmen nur so viel Platz ein, wie sie benötigen. Beispielsweise werden Links, Hervorhebungen und Betonungen einfach im Fließtext dargestellt. Hierzu zählen auch Bilder.
-
 ### Validierung unserer Codes und HTML-Skelett
 
 Abschließend haben wir unseren Code noch auf der [Website des W3C](https://validator.w3.org/#validate_by_input) (World Wide Web Consortium) - dem offiziellen Konsortium zur Standardisierung des World Wide Web - validiert und festgestellt, dass der Browser unsere Eingaben zwar korrekt dargestellt hat, wir aber gegen grundlegende Regeln der Sprache HTML verstoßen haben.
