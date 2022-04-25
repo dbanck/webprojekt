@@ -1,5 +1,6 @@
 ---
 title: Developer Tools
+sidebar_position: 2
 ---
 
 ## Firefox
