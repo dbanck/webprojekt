@@ -16,10 +16,10 @@ import ProminentLink from '@site/src/components/Docs/ProminentLink';
 ## Feedback Hausaufgaben
 
 - Ihr habt alle individuelles Feedback erhalten
-- Insgesamt habt ihr das aber sehr gut gemacht, ich hoffe es hat euch auch Spaß gemacht und ihr habt dabei besser verstehen können, wie man HTML schreibt
+- Insgesamt habt ihr das aber sehr gut gemacht, wir hoffen es hat euch auch Spaß gemacht und ihr habt dabei besser verstehen können, wie man HTML schreibt
 - Noch ein paar Hinweise
   - Prettier ist auch nützlich zum Prüfen, ob man einen Fehler im Code hat (nicht valides HTML). In diesem Fall kann Prettier den Code nicht automatisch formatieren und gibt eine Fehlermeldung aus.
-  - **Bitte beachtet für künftige Hausaufgaben und euer Projekt**: Nutzt die Validatoren für HTML und CSS, um fehlerfreien Code zu erzeugen. Ich möchte das nicht für jede Hausaufgabe von euch machen müssen.
+  - **Bitte beachtet für künftige Hausaufgaben und euer Projekt**: Nutzt die Validatoren für HTML und CSS, um fehlerfreien Code zu erzeugen. Wir möchten das nicht für jede Hausaufgabe von euch machen müssen.
   - Wir werden jetzt nicht mehr explizit weitere HTML-Elemente kennenlernen. Für euer Projekt und ggf. auch Hausaufgaben, seid ihr selbst gefordert durch die zur Verfügung gestellten Links zu MDN oder auch durch Google selber euch die entsprechenden Element beizubringen und anzuwenden.
 
 ## Weekly 🔥 tips
@@ -46,17 +46,14 @@ Im Rahmen des Kurses sollt ihr ein eigenes Projekt in Form einer Website entwick
 
 - Abgabe einer **Website** zu einem frei gewählten Thema
   - alle drei im Kurs gelernten Sprachen (**HTML, CSS und JS**) müssen **sinnvoll** eingesetzt sein
-- zusätzlich eine **kurze Dokumentation als PDF**, die das umgesetzte Thema und das gewählten Vorgehen beschreibt, sowie ein Fazit zieht und das Projekt reflektiert
-  - die Dokumentation beinhaltet außerdem eine Auflistung des geleisteten **Zeitaufwandes** für den gesamten Kurs (inkl. Präsenzzeiten, Hausaufgaben, etc.). Ohne Aufschlüsselung können wir keine ECTS vergüten.
-  - ggf. könnt ihr weitere Anlagen anhängen
-  - https://opencampus.gitbook.io/faq/leistungsnachweise/projekte#ausschliesslich-schriftliche-dokumentation-des-projekts
+- Präsentation der Website
 
 ### Abgabe
 
 - Link zur gehosteten Website
-- Zip-Archiv, das Website und Dokumentation enthält
-- **Präsentation 24.01.2022 18:00 - 20:00 Uhr**
-- **Abgabe Dokumentation: 28.01.2022 20:00 Uhr**
+- Zip-Archiv, das Website enthält
+- **Präsentation 27.06.2022 18:00 - 20:00 Uhr**
+- **Abgabe: 01.07.2022 20:00 Uhr**
 
 ### Bewertungskriterien
 
@@ -67,7 +64,7 @@ Im Rahmen des Kurses sollt ihr ein eigenes Projekt in Form einer Website entwick
 
 ## HTML - Live-Coding & Theorie
 
-_Dieser Abschnitt des Kurses ist schwer wiederzugeben. Ich will nur die wichtigsten Erkenntnisse zusammenfassen._
+_Dieser Abschnitt des Kurses ist schwer wiederzugeben. Wir wollen nur die wichtigsten Erkenntnisse zusammenfassen._
 
 Als erstes haben wir die Datei `rezept.html` in `index.html` umbenannt. Dies ist eine Konvention, der unsere Hausaufgaben und auch euer Projekt folgen sollte, da Webserver immer die Seite in einem Ordner, die `index.html` heißt, als erstes anzeigen. Es ist also der Einstieg in euer Projekt: eure Homepage.
 
@@ -75,24 +72,29 @@ Als erstes haben wir die Datei `rezept.html` in `index.html` umbenannt. Dies ist
 
 Als weiteren Schritt haben wir eine zu empfehlende Ordnerstruktur für euer Projekt betrachtet und die Vorteile, durch das Hinzufügen von lokalen Bildern, einer CSS-Datei und Links zu anderen HTML-Dateien (Seiten eurer Website), herausgestellt.
 
-Meine Empfehlung wäre folgende Struktur, ihr könnt aber auch davon abweichen.
+Unsere Empfehlung wäre folgende Struktur, ihr könnt aber auch davon abweichen.
 
 ![Empfohlene Ordnerstruktur](/img/lessons/03/folder.png)
 
+### Inline vs. Block-Elemente
+
+HTML-Elemente sind in zwei Kategorien geteilt: **Block-Elemente** und **Inline-Elemente**.
+
+![Erklärung von Block-Elementen und Inline-Elementen](/img/lessons/03/inline-block.jpg)
+
+Wir haben beides schon kennengelernt. Überschrift und Absätze sind typische Beispiele für Block-Elemente. Sie nehmen (standardmäßig) die volle Breite ein, so dass nachfolgende Elemente in die nächste Zeile rutschen.
+
+Inline-Elemente dagegen werden, wie der Name schon vermuten lässt, in der gleichen Zeile dargestellt, sie nehmen nur so viel Platz ein, wie sie benötigen. Beispielsweise werden Links, Hervorhebungen und Betonungen einfach im Fließtext dargestellt. Hierzu zählen auch Bilder.
+
 ### Styling-Vorbereitung
 
-Wir wollen das Rezept ein wenig anders gestalten; hauptsächlich wollen wir zwei Bereiche anpassen: den Header und die Zutatenlisten. So soll es aussehen:
+Wir wollen das Rezept ein wenig anders gestalten; hauptsächlich wollen wir einen Bereich anpassen: den Header. So soll er aussehen:
 
 - Hintergrundfarbe
 - Einrückung des Textes
 - das Wort "American" in den Farben der Nationalflagge der USA
 
 ![Kopfzeile der Website](/img/lessons/03/header.png)
-
-- Hintergrundfarbe für den ganzen Bereich
-- Zutaten für den Boden und die Creme nebeneinander
-
-![Rezepte](/img/lessons/03/ingredients.png)
 
 ### Strukturierende Elemente
 
@@ -145,7 +147,7 @@ Die **Werte**, die Eigenschaften annehmen sollen, sind ebenfalls vorgegeben und 
 
 ## Live-Coding - CSS
 
-_Dieser Abschnitt des Kurses ist schwer wiederzugeben. Ich will nur die wichtigsten Erkenntnisse zusammenfassen._
+_Dieser Abschnitt des Kurses ist schwer wiederzugeben. Wir wollen nur die wichtigsten Erkenntnisse zusammenfassen._
 
 Als erstes haben wir gelernt, welche drei verschiedenen Wege sowie deren Vor- und Nachteile es gibt, um einer HTML-Seite Gestaltung mittels CSS hinzuzufügen.
 
@@ -198,27 +200,27 @@ Auch für CSS gibt es einen Validator vom W3C: https://jigsaw.w3.org/css-validat
 
 Da ihr in diesem Projekt Websites entwickeln sollt, kommen wir um dieses Thema nicht komplett herum. Es gibt aber heutzutage sehr einfache und sogar kostenfreie Lösungen, um statische Websites wie unsere zu hosten.
 
-Hierzu zählt unter anderem [Netlify](https://www.netlify.com/). Mein Vorschlag wäre, dass ihr diesen Anbieter nutzt, um eure Hausaufgaben und euer Projekt zu hosten. Das macht die Abgabe einfacher, und ihr könnt es auch sehr einfach mit Freunden oder anderen Teilnehmern des Kurses teilen, wenn ihr mal Hilfe benötigt.
+Hierzu zählt unter anderem [Netlify](https://www.netlify.com/). Unser Vorschlag wäre, dass ihr diesen Anbieter nutzt, um eure Hausaufgaben und euer Projekt zu hosten. Das macht die Abgabe einfacher, und ihr könnt es auch sehr einfach mit Freunden oder anderen Teilnehmern des Kurses teilen, wenn ihr mal Hilfe benötigt.
 
 Ihr könnt aber auch einen anderen Hoster nutzen. Wichtig ist nur, dass ihr am Ende eine Website im Internet aufrufen könnt.
 
 ### Beispiel Website in Netlify
 
-In diesem Segment habe ich euch gezeigt, wie man eine Website auf Netlify errichtet. Nach dem Login kann man einfach per Drag and Drop einen Ordner vom eigenen Computer auf die entsprechende Fläche in Netlify ziehen. Netlify kopiert diesen dann auf einen Webserver und stellt uns eine URL zur Verfügung unter welcher diese Seite nun erreichbar ist.
+In diesem Segment haben wir euch gezeigt, wie man eine Website auf Netlify errichtet. Nach dem Login kann man einfach per Drag and Drop einen Ordner vom eigenen Computer auf die entsprechende Fläche in Netlify ziehen. Netlify kopiert diesen dann auf einen Webserver und stellt uns eine URL zur Verfügung unter welcher diese Seite nun erreichbar ist.
 
 Ihr könnt auch vorhandene Seiten durch erneutes Drag and Drop aktualisieren. Das ist besonders für euer Projekt sinnvoll.
 
 ### Hinweis: Urheberrecht und Impressumspflicht
 
-Eure Websites sind damit für jeden, der die URL kennt, sichtbar. Damit ist eure Website öffentlich und sollte den Mindestanforderungen an eine Website folgen. Dass ihr keine Urheberrechtsverstöße begeht, sollte selbstverständlich sein. Darüber hinaus gibt es aber eine [Impressumspflicht](https://www.abmahnung.org/impressum-private-homepage/) für Websites. Auf der Website findet ihr ein einfaches Beispiel, das ihr für eure Seite auch nutzen könnt. Ich habe bisher oft [e-Recht24](https://www.e-recht24.de/impressum-generator.html) genutzt, um ein Impressum zu generieren.
+Eure Websites sind damit für jeden, der die URL kennt, sichtbar. Damit ist eure Website öffentlich und sollte den Mindestanforderungen an eine Website folgen. Dass ihr keine Urheberrechtsverstöße begeht, sollte selbstverständlich sein. Darüber hinaus gibt es aber eine [Impressumspflicht](https://www.abmahnung.org/impressum-private-homepage/) für Websites. Auf der Website findet ihr ein einfaches Beispiel, das ihr für eure Seite auch nutzen könnt. Wir haben bisher oft [e-Recht24](https://www.e-recht24.de/impressum-generator.html) genutzt, um ein Impressum zu generieren.
 
 Das Impressum macht deutlich, wer der Betreiber einer Website ist. In diesem Fall seid ihr das als Privatpersonen, daher gibt es auch nur wenige Informationen, die ihr angeben müsst. Verlinkt einfach auf jeder Seite euer Impressum, dann seid ihr auf jeden Fall auf der sicheren Seite.
 
 ## Hausaufgabe
 
-Neben der eigentlichen Hausaufgabe benötige ich von euch **euren Namen** und den **Titel eures Projektes**. Schickt mir dies bitte einfach als kurze Nachricht zu.
+Neben der eigentlichen Hausaufgabe benötigen wir von euch **euren Namen** und den **Titel eures Projektes**. Schickt uns dies bitte einfach als kurze Nachricht zu.
 
-In dieser Woche solltet ihr aber bitte noch das Rezept, das ihr in der letzten Woche erzeugt habt oder ihr nehmt mein Beispielrezept aus Lektion 01, erweitern und mit ein wenig Styling versehen. Daher
+In dieser Woche solltet ihr aber bitte noch das Rezept, das ihr in der letzten Woche erzeugt habt oder ihr nehmt unser Beispielrezept aus Lektion 01, erweitern und mit ein wenig Styling versehen. Daher
 
 - nennt euer Rezept bitte in `index.html` um
 - fügt eurer Seite **lokale Bilder** hinzu
@@ -231,13 +233,13 @@ Abgabe erfolgt diese Woche das erste Mal als URL über Mattermost. Seht dies als
 
 ### Hinweise
 
-Darüber hinaus empfehle ich euch, mit eurem **eigenen Projekt anzufangen**. Legt euch bspw. die Ordnerstruktur an, erzeugt eine index.html und ggf. weitere Seiten, die euer Projekt benötigt. Bindet bereits eine CSS-Datei ein, in der ihr bspw. schon die Hintergrundfarbe der Seiten definiert.
+Darüber hinaus empfehlen wir euch, mit eurem **eigenen Projekt anzufangen**. Legt euch bspw. die Ordnerstruktur an, erzeugt eine `index.html` und ggf. weitere Seiten, die euer Projekt benötigt. Bindet bereits eine CSS-Datei ein, in der ihr bspw. schon die Hintergrundfarbe der Seiten definiert.
 
 In den kommenden Terminen wird es weiter Inhalte geben, die ihr dann auch in euer eigenes Projekt einfließen lassen könnt. Es wird auch weiter Hausaufgaben geben, die das gelernte der jeweiligen Lektion vertiefen. Aber denkt an das Abgabedatum des Projektes.
 
-Wenn ihr Fragen habt, stellt diese wie in der ersten Lektion beschrieben über Mattermost im Channel oder direkt an mich. Tauscht euch aus, arbeitet zusammen an etwas, was ihr dann in euren Projekten nutzt (macht das aber dann in der Dokumentation deutlich) und nutzt die Möglichkeiten des Internets.
+Wenn ihr Fragen habt, stellt diese wie in der ersten Lektion beschrieben über Mattermost im Channel. Tauscht euch aus, arbeitet zusammen an etwas, was ihr dann in euren Projekten nutzt (macht das aber dann in der Dokumentation deutlich) und nutzt die Möglichkeiten des Internets.
 
-Ich empfehle euch hier auch die anderen Videos von Colt Steele.
+Wir empfehlen euch hier auch die anderen Videos von Colt Steele.
 
 - Day 2 - https://www.youtube.com/watch?v=L1h--yeMbZc
 - Day 3 - https://www.youtube.com/watch?v=ZEHRyN6y71M
