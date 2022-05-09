@@ -2,7 +2,7 @@
 title: "Lektion 04: CSS"
 sidebar_label: "04: CSS"
 sidebar_position: 4
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
@@ -15,17 +15,17 @@ import ProminentLink from '@site/src/components/Docs/ProminentLink';
 
 ## Feedback Hausaufgabe
 
-Von der letzten Woche solltet ihr euer Rezept selber gestalten. Die Abgaben, die ich bekommen habe, haben bereits Feedback bekommen. Zusammenfassend: Sehr cool, dass ihr größtenteils auch schon rechts und links auf anderen Websites geguckt habt, was man noch so machen kann. Genau darum ging es auch ein bisschen: eure Neugierde zu wecken und die unendlichen Möglichkeiten von CSS zu erahnen.
+Von der letzten Woche solltet ihr euer Rezept selber gestalten. Die Abgaben, die wir bekommen haben, haben bereits Feedback bekommen. Zusammenfassend: Sehr cool, dass ihr größtenteils auch schon rechts und links auf anderen Websites geguckt habt, was man noch so machen kann. Genau darum ging es auch ein bisschen: eure Neugierde zu wecken und die unendlichen Möglichkeiten von CSS zu erahnen.
 
 Um diese Möglichkeiten zu vereinheitlichen haben wir im Kurs noch kurz [Normalize](https://necolas.github.io/normalize.css/) kennengelernt. Dies ist ein gutes Beispiel für Probleme, die jeder Frontendentwickler hat und durch eine Open-Source Lösung gelöst wird. Diese CSS-Datei, die wir in unsere Website einbinden können, stellt sicher, dass Unterschiede zwischen Browsern angeglichen werden.
 
-Leider muss ich nochmal auf die Validatoren für [HTML](https://validator.w3.org/#validate_by_input) und [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) hinweisen, die ihr vor der Abgabe bitte benutzen sollt.
+Leider müssen wir nochmal auf die Validatoren für [HTML](https://validator.w3.org/#validate_by_input) und [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) hinweisen, die ihr vor der Abgabe bitte benutzen sollt.
 
 ## Weekly 🔥 tips
 
 _Mehr Produktivität in VS Code_
 
-VS Code ist mit einer Menge sehr praktischer Shortcuts ausgestattet. Einige der von mir am häufigsten verwendeten Tastaturkürzel habe ich euch vorgestellt. Ihr findet im Web noch unzählige weitere Blogbeiträge zu diesem Thema, u.a. hier: https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/
+VS Code ist mit einer Menge sehr praktischer Shortcuts ausgestattet. Einige der von uns am häufigsten verwendeten Tastaturkürzel haben wir euch vorgestellt. Ihr findet im Web noch unzählige weitere Blogbeiträge zu diesem Thema, u.a. hier: https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/
 
 ### Aktuelle/markierte Zeilen auskommentieren (Toggle)
 
@@ -50,7 +50,7 @@ Alle Funktionen von VS Code können auch über die so genannte Command Palette (
 
 emmet ist ein in VS Code bereits integriertes Tool, dass es ermöglicht über eine bestimmte, CSS-ähnliche Syntax HTML Code zu erzeugen, ohne dass man die öffnenden und schließenden Tags selber schreiben muss. Einige Beispiele (`!`, `lorem`, `h2`) haben wir bereits gesehen. Es gibt aber auch weitaus umfangreichere Möglichkeiten. Bspw. kann eine Liste mit 3 Listeneinträgen, die jeweils ein betontes Element enthalten, über `ul>li\*3>strong` erzeugt werden.
 
-Mehr Infos findet ihr in der offiziellen [Dokumentation](https://emmet.io/). Wenn ihr ein Highlight entdeckt habt, teilt es gerne im Channel mit den anderen und mir. Ich habe es auch gerade erst angefangen vermehrt zu nutzen.
+Mehr Infos findet ihr in der offiziellen [Dokumentation](https://emmet.io/). Wenn ihr ein Highlight entdeckt habt, teilt es gerne im Channel mit den anderen und mir.
 
 ## Theorie
 
@@ -134,7 +134,7 @@ Eine ID können wir in CSS über eine bestimmte Syntax selektieren: über eine *
 
 Neben der Einschränkung, dass eine ID global, also im gesamten Dokument nur einmal verwendet werden darf, kann auch nur - anders als bei Klassen - _eine_ ID vergeben werden. Eine Verknüpfung durch ein Leerzeichen ist also **nicht** erlaubt.
 
-Besondere und einzigartige Elemente können mit einer ID versehen werden, ich empfehle aber größtenteils auf Klassen zu setzen, denn auch diese können eindeutig sein, müssen es aber nicht. Wenn ein weiteres Element ein bestimmtes Styling erhalten soll, füge ich einfach diese Klasse hinzu.
+Besondere und einzigartige Elemente können mit einer ID versehen werden, wir empfehlen aber größtenteils auf Klassen zu setzen, denn auch diese können eindeutig sein, müssen es aber nicht. Wenn ein weiteres Element ein bestimmtes Styling erhalten soll, fügen wir einfach diese Klasse hinzu.
 
 ### Stufenförmige Formatvorlagen
 
@@ -180,7 +180,7 @@ Wir haben damit gelernt, dass man durch bestimmte Syntax die Elemente, die wir v
 
 ### Spezifität
 
-Dieses schwer auszusprechende Wort, vor allem im Englischen "specificity", erklärt, warum eine CSS-Regel durch eine andere überschrieben wird. Es gibt fest definierte Regeln, wie die Bestimmung der einzelnen Spezifitätswerte funktioniert. Das ist [hier](https://dev.to/emmabostian/css-specificity-1kca) zig Mal besser erklärt, als ich es in unserer Kurszeit könnte. Daher lest gerne mal nach. Die grundlegenden Regeln haben wir aber gemeinsam kennengelernt:
+Dieses schwer auszusprechende Wort, vor allem im Englischen "specificity", erklärt, warum eine CSS-Regel durch eine andere überschrieben wird. Es gibt fest definierte Regeln, wie die Bestimmung der einzelnen Spezifitätswerte funktioniert. Das ist [hier](https://dev.to/emmabostian/css-specificity-1kca) zig Mal besser erklärt, als wir es in unserer Kurszeit könnten. Daher lest gerne mal nach. Die grundlegenden Regeln haben wir aber gemeinsam kennengelernt:
 
 - Regeln haben verschiedene Spezifität (Stärke)
 - Die Stärke leitet sich von den verwendeten Selektortypen (Element, Klasse, ID, …) ab
@@ -216,12 +216,12 @@ Lest euch das gerne mal durch. Ihr entwickelt aber auch nach und nach ein genaue
 
 [Figma](http://figma.com/) ist ein kostenfreies, modernes Layouttool, dass im Browser oder als Desktop-Anwendung genutzt werden kann. Es ist daher plattformübergreifend nutzbar und nicht bspw. auf Mac OS beschränkt.
 
-Ihr könnt darin eure Website vorab entwerfen und dann mit Code dieses Ziel verfolgen. Ich habe euch kurz gezeigt, wie ihr es benutzt. Online gibt es aber viele Tutorials.
+Ihr könnt darin eure Website vorab entwerfen und dann mit Code dieses Ziel verfolgen. Wir haben euch kurz gezeigt, wie ihr es benutzt. Online gibt es aber viele Tutorials.
 
 ## Hausaufgabe
 
 Bitte setzt euch ein bisschen mit Figma auseinander und gestaltet bereits eure Projekt darin. Ihr findet online sicher etliche Tutorials. Wenn ihr etwas besonders Gutes gefunden habt, teilt es gerne mit den anderen im Channel.
 
-Teilt gerne das Ergebnis eures Designs mit mir - oder auch den anderen - per Link. Ihr könnt in Figma dafür einfach euren Rahmen anklicken und dann die URL aus eurem Browserfenster kopieren und verschicken.
+Teilt gerne das Ergebnis eures Designs mit uns (und auch den anderen) - per Link. Ihr könnt in Figma dafür einfach euren Rahmen anklicken und dann die URL aus eurem Browserfenster kopieren und verschicken.
 
-Darüber hinaus kann ich euch sehr empfehlen, die heute gelernten Selektor-Typen, die Specificity und die Stufenförmigkeit von CSS noch einmal zu vertiefen, in dem ihr die Beispiele nachvollzieht und selber einmal bspw. in eurem Rezept weitere Regeln hinzufügt oder die vorhandenen Regeln anpasst. Wir haben jetzt bereits viel mehr Möglichkeiten kennengelernt, um unser Dokument zu gestalten.
+Darüber hinaus können wir euch sehr empfehlen, die heute gelernten Selektor-Typen, die Specificity und die Stufenförmigkeit von CSS noch einmal zu vertiefen, in dem ihr die Beispiele nachvollzieht und selber einmal bspw. in eurem Rezept weitere Regeln hinzufügt oder die vorhandenen Regeln anpasst. Wir haben jetzt bereits viel mehr Möglichkeiten kennengelernt, um unser Dokument zu gestalten.
