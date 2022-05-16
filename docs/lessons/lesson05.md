@@ -2,7 +2,7 @@
 title: "Lektion 05: Webentwicklung"
 sidebar_label: "05: Webentwicklung"
 sidebar_position: 5
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
@@ -27,7 +27,7 @@ Eingebunden wird die Schriftart dann über ein `<link>`-Element (genau wie unser
 
 In diesem Block der heutigen Lektion haben wir die Inhalte der letzten Woche noch einmal wiederholt. Unter anderem haben wir unser Wissen über verschiedene Selektoren in CSS aufgefrischt.
 
-Die Inhalte möchte ich hier nicht noch einmal aufführen. Ihr könnt sie in der letzten Lektion nachlesen.
+Die Inhalte möchten wir hier nicht noch einmal aufführen. Ihr könnt sie in der letzten Lektion nachlesen.
 
 Abschließend haben wir unser Wissen noch in ein paar kleinen Tests erneut getestet. Diese Tests findet ihr wieder auf GitHub, wo ihr sie gerne noch einmal nachvollziehen könnt.
 
@@ -45,28 +45,28 @@ _Webentwicklung am Beispiel einer Navigation_
 
 ![Fertige Navigation](/img/lessons/05/navi.png)
 
-Wie immer ist es sehr schwer, das Live Coding hier zusammenzufassen. Wir haben diese Woche gemeinsam eine Navigation entwickelt, die ich vorher in Figma gestaltet habe. Wir konnten dabei das Wissen der vorherigen Sessions geballt anwenden und das erste Mal einen realistischen Ablauf der Entwicklung vollziehen.
+Wie immer ist es sehr schwer, das Live Coding hier zusammenzufassen. Wir haben diese Woche gemeinsam eine Navigation entwickelt, die wir vorher in Figma gestaltet habe. Wir konnten dabei das Wissen der vorherigen Sessions geballt anwenden und das erste Mal einen realistischen Ablauf der Entwicklung vollziehen.
 
 Hauptsächlich haben wir dabei gelernt, wie man ein Layout in HTML und CSS umsetzt. Dieser Workflow besteht grundlegend aus drei Schritten:
 
-1. Vorlage ansehen - Wo will ich hin?
-2. Umsetzung im Code - Wie komme ich dort hin?
-3. Kontrolle im Browser - Bin ich angekommen?
+1. Vorlage ansehen - Wo wolllen wir hin?
+2. Umsetzung im Code - Wie kommen wir dort hin?
+3. Kontrolle im Browser - Sind wir angekommen?
 
-Diese drei Schritte werden immer wieder durchlaufen, so dass sich eine sehr kleinteilige, iterative Arbeitsweise ergibt und am Ende die Vorlage umgesetzt wurde. Ich benötige also drei verschiedene Fenster: meine Vorlage (kann ein Bild, ein Tab mit Figma, ein Foto, … sein), meinen Editor, in dem mein Projektordner geöffnet ist, und meinen Browser, in dem die Website geöffnet ist, an der ich aktuell arbeite.
+Diese drei Schritte werden immer wieder durchlaufen, so dass sich eine sehr kleinteilige, iterative Arbeitsweise ergibt und am Ende die Vorlage umgesetzt wurde. Wir benötigen also drei verschiedene Fenster: unsere Vorlage (kann ein Bild, ein Tab mit Figma, ein Foto, … sein), unseren Editor, in dem mein Projektordner geöffnet ist, und unseren Browser, in dem die Website geöffnet ist, an der wir aktuell arbeiten.
 
 ### 1. Vorlage ansehen
 
-Zuerst schaue ich mir die Vorlage genau an. Welche Elemente existieren? Welche HTML-Elemente muss ich dafür nutzen? Wie muss das entsprechende HTML aufgebaut sein?
-Sobald ich einen groben Plan habe, wähle ich mir einen Teil aus, den ich umsetzen will, und gehe zu Schritt 2 über.
+Zuerst schauen wir uns die Vorlage genau an. Welche Elemente existieren? Welche HTML-Elemente müssen wir dafür nutzen? Wie muss das entsprechende HTML aufgebaut sein?
+Sobald wir einen groben Plan haben, wählen wir uns einen Teil aus, den wir umsetzen wollen, und gehen zu Schritt 2 über.
 
-Bspw. habe ich in der Vorlage erkannt, dass meine Navigation im Header der Seite platziert sein soll, dieser über die ganze Breite der Seite geht und eine bestimmte Hintergrundfarbe hat.
+Bspw. haben wir in der Vorlage erkannt, dass unsere Navigation im Header der Seite platziert sein soll, dieser über die ganze Breite der Seite geht und eine bestimmte Hintergrundfarbe hat.
 
 ### 2. Umsetzung im Code
 
-Ich füge meinem Dokument also die benötigten HTML-Elemente für meine kleine Teilaufgabe der gesamten Umsetzung hinzu. In diesem Beispiel füge ich einen `<header>` hinzu, in dem ich zunächst nur das Wort “Navigation” einfüge.
+Wir fügen in unserem Dokument also die benötigten HTML-Elemente für unsere kleine Teilaufgabe der gesamten Umsetzung hinzu. In diesem Beispiel fügen wir einen `<header>` hinzu, in dem wir zunächst nur das Wort “Navigation” einfügen.
 
-Im CSS erzeuge ich eine dazu passende Regel, die über den Elementtyp den `<header>` anspricht und füge eine Hintergrundfarbe hinzu.
+Im CSS erzeugen wir eine dazu passende Regel, die über den Elementtyp den `<header>` anspricht und fügen eine Hintergrundfarbe hinzu.
 
 ```css
 header {
@@ -76,11 +76,11 @@ header {
 
 ### 3. Kontrolle
 
-Als letzten der drei Schritte wechsel ich wieder in meinen Browser und lade die Website neu, um zu kontrollieren, ob das Ergebnis dem entspricht, wie ich mir es in Schritt 1 vorgestellt habe. Wenn ja, gehe ich zum nächsten Element über, wenn nicht, beginnt der Prozess von vorne und ich muss schauen, wo ich einen Fehler gemacht habe, bzw. welche zusätzlichen CSS-Anweisungen noch fehlen.
+Als letzten der drei Schritte wechseln wir wieder in unseren Browser und laden die Website neu, um zu kontrollieren, ob das Ergebnis dem entspricht, wie wir es uns in Schritt 1 vorgestellt haben. Wenn ja, gehen wir zum nächsten Element über, wenn nicht, beginnt der Prozess von vorne und wir müssen schauen, wo wir einen Fehler gemacht haben, bzw. welche zusätzlichen CSS-Anweisungen noch fehlen.
 
 ### Hinweis
 
-So schnell und zielgerichtet, wie wir im Live-Coding gearbeitet haben, werdet ihr (wahrscheinlich) noch nicht arbeiten können. Ich habe jahrelange Erfahrung, das Live-Coding schriftlich vorbereitet und auf meinem zweiten Monitor die ganze Zeit geguckt, was ich schreiben muss. Damit entspricht das in keinster Weise der Realität. Die Umsetzung eines Layouts ist wie beschrieben ein kleinteiliger, iterativer Prozess, der manchmal sehr lange dauern kann.
+So schnell und zielgerichtet, wie wir im Live-Coding gearbeitet haben, werdet ihr (wahrscheinlich) noch nicht arbeiten können. Wir haben jahrelange Erfahrung, das Live-Coding schriftlich vorbereitet und auf unserem zweiten Monitor die ganze Zeit geguckt, was wir schreiben müssen. Damit entspricht das in keinster Weise der Realität. Die Umsetzung eines Layouts ist wie beschrieben ein kleinteiliger, iterativer Prozess, der manchmal sehr lange dauern kann.
 
 Da ihr auch die meisten Befehle noch nicht kennt, müsst ihr zusätzlich diese auch erstmal googlen und kennenlernen. Also seid nicht frustriert, wenn die Umsetzung in der Hausaufgabe nicht so flüssig von der Hand geht.
 
