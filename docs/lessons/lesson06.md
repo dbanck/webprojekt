@@ -55,63 +55,26 @@ Ein kurze, nicht vollständige Liste von möglichen Einsatzzwecken kann sein:
 
 Anschließend haben wir einige der für eine Programmiersprache spezifischen Bestandteile wie Variablen, Funktionen, Operatoren, Schleifen, Bedingungen, etc. in JavaScript kennengelernt. Darüber hinaus gibt es aber noch weitere, die wir teilweise am nächsten Termin kennenlernen bzw. die ihr am besten problemspezifisch lernen und anwenden solltet. Ein guter Einstieg ist wie so oft [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction).
 
-### Variablen
+## Live Coding
 
-In [Variablen](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Statements/var) können Werte gespeichert und an anderen Stellen referenziert oder auch noch geändert werden. Sie werden in JS mit dem Wort `let` deklariert und ggf. direkt initialisiert, also mit einem initialen Wert belegt. Außerdem gibt es noch das Keyword `const`, mit dem konstante Werte erzeugt werden können. Diese können später nicht verändert werden.
+Wie immer ist es sehr schwer, das Live Coding hier zusammenzufassen. Wir haben gemeinsam die ersten Schritte in JavaScript gemacht und dabei die Basics kennengelernt.
 
-```js
-const daysInAWeek = 7;
-
-let name = "Basti";
-// name ist hier "Basti"
-
-name = "Basti Buck";
-// name ist hier "Basti Buck"
-```
-
-### Datentypen
-
-In JavaScript gibt es sieben [Datentypen](https://developer.mozilla.org/de/docs/Web/JavaScript/Datenstrukturen). Fünf (primitive) Datentypen haben wir bereits kennengelernt: **String**, **Number**, **Boolean**, **Undefined** und **Null**.
-
-```js
-let string = "Basti";
-let number = 3.1415;
-let boolean = true;
-let undef = undefined;
-let nothing = null;
-```
-
-Daneben gibt es noch **Symbol** als primitven Datentyp, sowie **Object** als komplexen Datentyp. Diese haben wir zunächst nicht betrachtet, aber schaut euch gerne die entsprechende Dokumentation an.
-
-### Operatoren
-
-Wir haben außerdem einfache [Operatoren](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators) in JavaScript kennengelernt. Die meisten kennt ihr bereits aus der Mathematik. Operatoren erhalten in echten Programmen deutlich mehr Sinn, als wir es heute kennengelernt haben. Aber es ist wichtig, dass ihr diese bereits kennt.
-
-```js
-3 + 2;		// 5
-3 - 2;		// 1
-3 * 2;		// 6
-8 / 2;		// 4
-3 < 2;		// false
-3 > 2;		// true
-3 <= 3;	    // true
-4 >= 3;	    // true
-4 === 3;	// false
-4 !== 3;	// true
-
-2 == “2”;	// true		ACHTUNG! lockerer Vergleich
-```
-
-Ggf. unbekannte Operatoren sind `===` (gleich) und `!==` (ungleich). Verwendet bitte immer diese strengen Vergleichsoperatoren, da diese (mit drei Zeichen) auch die Datentypen vergleichen und nicht nur den Wert.
-
-Als Abschluss des Theorieteils zu JavaScript haben wir noch die Möglichkeit der Ausgabe von Inhalten in die Konsole des Browsers über `console.log(“Hallo Welt”)` kennengelernt. Dieser Befehl eignet sich hervorragend, um ein Programm zu debuggen und zu entwickeln. Dies werden wir aber in der kommenden Lektion vermehrt kennenlernen.
-Außerdem haben wir noch zwei Möglichkeiten der Einbindung von JavaScript in unsere HTML-Seite kennengelernt. An einem einfachen Beispiel haben wir gelernt, wie man JavaScript in eine Seite einbindet, so dass es jedem Besucher unserer Seite ausgeliefert und ausgeführt wird. Hier gibt es genau wie bei CSS auch verschiedene Möglichkeiten:
+Dabei haben wir zwei Möglichkeiten der Einbindung von JavaScript in unsere HTML-Seite kennengelernt. An einem einfachen Beispiel haben wir gelernt, wie man JavaScript in eine Seite einbindet, so dass es jedem Besucher unserer Seite ausgeliefert und ausgeführt wird. Hier gibt es genau wie bei CSS auch verschiedene Möglichkeiten:
 
 - `<script>`...`</script>` Tag im `<head>` des Dokuments
 - als externe Datei, die über `<script src="func.js"></script>` geladen wird
   - dies ist die empfohlene Einbindungsform
 
 Diese zwei Methoden der Einbindung von JS hat die gleichen Vor- und Nachteile wie das Einbinden von CSS: In einem Script-Tag im Head des Dokuments ist JavaScript isoliert vom restlichen Inhalt, aber wir müssen es in jedem Dokument wieder einbinden und ggf. an mehreren Stellen anpassen. Eine zentrale, externe Datei, die wir einbinden, ermöglicht hingegen Anpassungen an einer zentralen Stelle und eine zusätzliche Trennung von Inhalt und Logik. Daher ist letztere die empfohlene Form der Einbindung.
+
+Weitere Themen waren:
+
+- [Codestruktur](https://javascript.info/structure)
+- [Variablen](https://javascript.info/variables)
+- [Einfache Operatoren](https://javascript.info/operators)
+- [Bedingungen](https://javascript.info/ifelse)
+- [Funktionen](https://javascript.info/function-basics)
+- [Interaktion mit HTML](https://javascript.info/searching-elements-dom)
 
 ## Hausaufgabe
 
@@ -120,6 +83,6 @@ Als Hausaufgabe arbeitet bitte an eurer eigenen Website. In den nächsten Termin
 Außerdem solltet ihr die heutigen Inhalte vor der nächsten Session nochmal selbstständig vertiefen, am einfachsten über Online Tutorials wie
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
-- https://www.youtube.com/watch?v=x2RNw4M6cME erste Hälfte
+- https://javascript.info/
 
 Die Wiederholung wäre gut, da wir in der nächsten Session direkt darauf aufbauen, weitere Theorie lernen und dann möglichst schnell eigene JS-Logik programmieren wollen.
