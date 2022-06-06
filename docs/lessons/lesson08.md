@@ -2,7 +2,7 @@
 title: "Lektion 08: Responsive Webdesign"
 sidebar_label: "08: Responsive Webdesign"
 sidebar_position: 8
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
@@ -21,7 +21,7 @@ In den letzten Wochen haben wir bereits ein paar Funktionen der Chrome Developer
 
 ![Responsive Mode in Chrome](/img/lessons/08/responsive-mode.png)
 
-Über einen Button (oben rechts im Screenshot blau) aktiviert und deaktiviert ihr dieses Feature. Danach könnt ihr zwischen einem flexiblen Modus (“responsive”) und fixen Geräten wie in diesem Beispiel dem iPhone X wählen. Die Website wird dann in dieser Breite dargestellt.
+Über einen Button (oben rechts im Screenshot blau) aktiviert und deaktiviert ihr dieses Feature. Danach könnt ihr zwischen einem flexiblen Modus ("responsive") und fixen Geräten wie in diesem Beispiel dem iPhone X wählen. Die Website wird dann in dieser Breite dargestellt.
 
 ## Responsive Webdesign
 
@@ -30,13 +30,13 @@ Quelle: https://aundo.de/webdesign-agentur-bremen/
 
 ### Begriffsklärung
 
-> “Beim Responsive Webdesign handelt es sich um ein gestalterisches und technisches Paradigma zur Erstellung von Websites, so dass diese auf Eigenschaften des jeweils benutzten Endgeräts, vor allem Smartphones und Tabletcomputer, reagieren können.”
+> "Beim Responsive Webdesign handelt es sich um ein gestalterisches und technisches Paradigma zur Erstellung von Websites, so dass diese auf Eigenschaften des jeweils benutzten Endgeräts, vor allem Smartphones und Tabletcomputer, reagieren können."
 
 https://de.wikipedia.org/wiki/Responsive_Webdesign
 
 Nach dieser Definition ist "responsives Webdesign" also eine Herangehensweise an die Entwicklung unserer Website, die im Design beginnt und durch eine bestimmte technische Lösung umgesetzt wird.
 
-Die Unterschiede im Design werden in der obigen Grafik (von https://aundo.de/webdesign-agentur-bremen/) gut deutlich: auf einem breiten Bildschirm gibt es drei Spalten für den Inhalt, auf mittleren Breiten nur noch zwei und auf einem Smartphone wird der Inhalt in einer Spalte dargestellt.
+Die Unterschiede im Design werden in der obigen [Grafik](https://aundo.de/webdesign-agentur-bremen/) gut deutlich: auf einem breiten Bildschirm gibt es drei Spalten für den Inhalt, auf mittleren Breiten nur noch zwei und auf einem Smartphone wird der Inhalt in einer Spalte dargestellt.
 
 Diese Designunterschiede müssen auch durch uns Entwickler umgesetzt werden. Hierfür bietet CSS Funktionalitäten an, über die wir unsere Website **responsive** - also reagierend - entwickeln können. So entwickeln wir eine Website, die auf allen Endgeräten die gleichen Inhalte enthält und diese lediglich unterschiedlich darstellt. Ein Umleiten von Benutzern, die über ein Smartphone eine Website besuchen, wird heute in der Regel nicht mehr gemacht. Früher war dies noch üblich, Nutzer auf bspw. eine **m**.heute.de Domain umzuleiten.
 
@@ -60,14 +60,16 @@ Anschließend haben wir mit Hilfe von [Media Queries](https://developer.mozilla.
 
 Den Code dafür findet ihr auch wieder auf GitHub. Da wir hier moderne Layout-Eigenschaften von CSS (Flexbox) nutzen, müssen wir hier tatsächlich relativ wenig anpassen. Das ist auch der festzustellende Trend der letzten Jahre. CSS wird immer flexibler, so dass viele Dinge bereits out-of-the-box auf unterschiedlichen Gerätebreiten funktioniert. An einigen Stellen muss oder will man aber gezielt nachhelfen.
 
-Abschließend haben wir noch einen kurzen Ausblick in die Zukunft gewagt und uns CSS Container-Queries angeschaut. Diese Art der Queries ist noch nicht stabil und daher nicht veröffentlicht. Sie sollen aber die Anpassung von Gestaltung nicht wie wir heute abhängig von der **Bildschirmbreite** sondern in Bezug auf die **Containerbreite** (also die Breite des umgebenden Elements) ermöglichen. Dies entspricht der modernen Denkweise von **Komponenten**, die an unterschiedlichen Stellen der Website eingebunden werden können und daher verschiedene Breiten einnehmen können.
+### Container Queries
+
+Abschließend haben wir noch einen kurzen Ausblick in die Zukunft gewagt und uns [CSS Container-Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) angeschaut. Diese Art der Queries ist noch nicht stabil und daher nicht veröffentlicht. Sie sollen aber die Anpassung von Gestaltung nicht wie wir heute abhängig von der **Bildschirmbreite** sondern in Bezug auf die **Containerbreite** (also die Breite des umgebenden Elements) ermöglichen. Dies entspricht der modernen Denkweise von **Komponenten**, die an unterschiedlichen Stellen der Website eingebunden werden können und daher verschiedene Breiten einnehmen können.
 
 Einen ersten Einblick könnt ihr hier gewinnen: https://www.youtube.com/watch?v=JsN_iE3prm0
 
-## Fragen und Antworten
+## Fragen und Antworten und Freie Projektarbeit
 
-Diesen Teil kann ich hier nicht zusammenfassen. Ihr hattet die Möglichkeit im Rahmen der Live-Session Fragen zu stellen, die ihr konkret zu euren Projekten habt. Ich habe hier versucht möglichst viele zu beantworten.
+Dieser Teil kann hier nicht zusammengefasst werden. Ihr hattet die Möglichkeit im Rahmen der Live-Session Fragen zu stellen, die ihr konkret zu euren Projekten habt. Wir haben hier versucht möglichst viele zu beantworten.
 
 ## Hausaufgabe
 
-Arbeitet bitte weiter an euren Projekten. Sollten hier Fragen auftauchen, versucht diese selber zu klären, stellt sie im Channel, falls sie euch komplett blockieren, oder sammelt sie sonst für diese nächste Lektion. Hier werden wir in Breakout-Rooms an unseren Projekten arbeiten.
+Arbeitet bitte weiter an euren Projekten. Sollten hier Fragen auftauchen, versucht diese selber zu klären, stellt sie im Channel, falls sie euch komplett blockieren, oder sammelt sie sonst für diese nächste Lektion. Hier werden wir wieder in Breakout-Rooms an unseren Projekten arbeiten.
