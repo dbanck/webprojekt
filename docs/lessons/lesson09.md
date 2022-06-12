@@ -35,13 +35,13 @@ Es gibt unzählige CSS-Frameworks. [Hier](https://www.designerinaction.de/tipps-
 - Bulma
 - tailwindcss
 
-## Live Coding: tailwindcss
+## Live Coding: Bootstrap
 
-Am Beispiel von [tailwindcss](https://tailwindcss.com/) haben wir uns einmal kurz angeschaut, wie man ein solches Framework einsetzt und damit ein einfaches Beispiel umsetzt. Dies ist hier schwierig zu beschreiben, daher schaut euch das Ergebnis am besten wieder bei GitHub an.
+Am Beispiel von [Bootstrap](https://getbootstrap.com/) haben wir uns einmal kurz angeschaut, wie man ein solches Framework einsetzt und damit ein einfaches Beispiel umsetzt. Dies ist hier schwierig zu beschreiben, daher schaut euch das Ergebnis am besten wieder bei GitHub an.
 
 ## Projektarbeit
 
-Diesen Teil kann ich hier nicht zusammenfassen. Ihr hattet die Möglichkeit im Rahmen der Live-Session an euren Projekten in Breakout Rooms zu arbeiten. Ich habe dann jedem einen kurzen Besuch abgestattet und versucht zu helfen.
+Diesen Teil können wir hier nicht zusammenfassen. Ihr hattet die Möglichkeit im Rahmen der Live-Session an euren Projekten in Breakout Rooms zu arbeiten. Wir haben dann jedem einen kurzen Besuch abgestattet und versucht zu helfen.
 
 ## Hausaufgabe
 
