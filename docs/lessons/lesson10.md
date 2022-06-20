@@ -2,7 +2,7 @@
 title: "Lektion 10: Dynamisches HTML"
 sidebar_label: "10: Dynamisches HTML"
 sidebar_position: 10
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
