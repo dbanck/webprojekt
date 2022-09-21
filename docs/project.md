@@ -17,8 +17,8 @@ Im Rahmen des Kurses sollt ihr ein eigenes Projekt in Form einer Website entwick
 
 - Link zur gehosteten Website per Mattermost an Basti oder Daniel senden
 - Zip-Archiv, das Website enthält, über Edu-Plattform hochladen
-- **Präsentation 27.06.2022 18:00 - 20:00 Uhr**
-- **Abgabe: 01.07.2022 20:00 Uhr**
+- **Präsentation 30.01.2023 18:00 - 20:00 Uhr**
+- **Abgabe: 03.02.2023 20:00 Uhr**
 
 ### Bewertungskriterien
 

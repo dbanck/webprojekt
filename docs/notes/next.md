@@ -2,6 +2,7 @@
 id: next
 title: Nächste Schritte
 sidebar_position: 4
+sidebar_class_name: hidden
 ---
 
 Für eine Übersicht über weitere Themen mit denen ihr euch beschäftigen könnt, empfehlen wir euch folgende Seiten:
