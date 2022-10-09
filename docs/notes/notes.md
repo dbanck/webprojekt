@@ -5,7 +5,7 @@ sidebar_position: 1
 
 import ProminentLink from '@site/src/components/Docs/ProminentLink';
 
-<ProminentLink link="https://github.com/dbanck/webprojekt-sose22" style={{width: "20rem" }}>GitHub Projekt mit Code</ProminentLink>
+<ProminentLink link="https://github.com/dbanck/webprojekt-wise22" style={{width: "20rem" }}>GitHub Projekt mit Code</ProminentLink>
 
 ## Allgemein
 
