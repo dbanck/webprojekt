@@ -103,6 +103,17 @@ Es gibt jedoch Ausnahmen und ihr habt eines bereits im Kurs kennengelernt; das T
 
 ## Live Coding: Genug Theorie
 
+:::info
+
+**Was ist Live Coding?**
+
+- Wir coden, denken laut und erklären
+- Ihr hört zu, denkt mit und stellt Fragen
+- Ihr braucht nicht mitzutippen
+- Wir stellen das Ergebnis und auch die Startdateien danach zur Verfügung, sodass ihr alles in Ruhe nachvollziehen könnt
+
+:::
+
 _Dieser Teil hat live stattgefunden und ist nur sehr schwer zusammenzufassen. Wir versuchen es aber mal. Ihr findet das Ergebnis aber auf GitHub im Kurs-Projekt. Hinweis: wir führen hier oft nur das öffnende Tag auf, es gehört aber IMMER auch ein schließendes Tag dazu._
 
 ### Einstieg HTML-Elemente
