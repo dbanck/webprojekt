@@ -28,7 +28,7 @@ Hier möchten wir euch ein paar Verhaltensweisen nahelegen, so dass der Ablauf m
 
 - Vor und nach einer Session
 
-  - Mattermost als Plattform für Austausch jeglicher Art es gibt einen eigenen Kurschannel **C_Webprojekt – Einstieg in die Webentwicklung**; dieser ist nur euch vorbehalten. Also seid offen; wir sind unter uns
+  - Mattermost als Plattform für Austausch jeglicher Art es gibt einen eigenen Kurschannel **Webprojekt – Einstieg in die Webentwicklung**; dieser ist nur euch vorbehalten. Also seid offen; wir sind unter uns
   - nutzt private Nachrichten nur für Dinge, die nicht auch für andere Teilnehmende relevant sein könnten, bspw. individuelle Fragen zum Projekt/einem Problem
   - helft euch gegenseitig, wir versuchen möglichst viel auch außerhalb der Kurszeiten zu beantworten, aber vielleicht hat jemand anderes aus dem Kurs bereits das gleiche Problem gehabt. Dann unterstützt euch und traut euch ruhig, zu fragen!
 
