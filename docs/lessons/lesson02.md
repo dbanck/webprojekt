@@ -39,7 +39,7 @@ import ProminentLink from '@site/src/components/Docs/ProminentLink';
 
 ## Weekly 🔥 tips
 
-_Ich versuche euch neben den Inhalten zum Webprojekt auch jede Woche noch ein paar Tipps vorzubereiten, die die Arbeit am Computer beschleunigen oder einfacher machen.
+_Wir versuchen euch neben den Inhalten zum Webprojekt auch jede Woche noch ein paar Tipps vorzubereiten, die die Arbeit am Computer beschleunigen oder einfacher machen.
 Wenn ihr hier gezielt Wünsche habt, meldet euch gerne bei uns. Diese weekly 🔥 tips werden wir jede Session kurz einstreuen. Die Tastaturkürzel beziehen sich immer auf Windows, sind aber für Mac OS meistens gleich._
 
 ### Basics
