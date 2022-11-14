@@ -206,7 +206,7 @@ Ihr könnt aber auch einen anderen Hoster nutzen. Wichtig ist nur, dass ihr am E
 
 ### Beispiel Website in Netlify
 
-In diesem Segment haben wir euch gezeigt, wie man eine Website auf Netlify errichtet. Nach dem Login kann man einfach per Drag and Drop einen Ordner vom eigenen Computer auf die entsprechende Fläche in Netlify ziehen. Netlify kopiert diesen dann auf einen Webserver und stellt uns eine URL zur Verfügung unter welcher diese Seite nun erreichbar ist.
+In diesem Segment haben wir euch gezeigt, wie man eine Website auf [Netlify](https://www.netlify.com/) errichtet. Nach dem Login kann man einfach per Drag and Drop einen **Ordner** vom eigenen Computer auf die entsprechende Fläche in Netlify ziehen. Netlify kopiert diesen dann auf einen Webserver und stellt uns eine URL zur Verfügung unter welcher diese Seite nun erreichbar ist.
 
 Ihr könnt auch vorhandene Seiten durch erneutes Drag and Drop aktualisieren. Das ist besonders für euer Projekt sinnvoll.
 

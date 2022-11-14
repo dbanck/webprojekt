@@ -34,6 +34,7 @@ import ProminentLink from '@site/src/components/Docs/ProminentLink';
     - Installation über die Sidebar
     - in den Settings `Format on save` anhaken
     - Default Formatter: `esbenp.prettier-vscode`
+    - [eine Anleitung mit Bildern findet ihr hier](../notes/editors.md)
 - Weitere Infos zu VS Code findet ihr in dieser Playlist: https://www.youtube.com/playlist?list=PLLnpHn493BHHkdpK8E37x_d5cOZBr4GlL
   - Video #2 sollte reichen, die anderen Videos behandeln teilweise fortgeschrittene Themen. #3, #5 und #7 könnt ihr auch auf jeden Fall noch anschauen wenn ihr mögt
 
