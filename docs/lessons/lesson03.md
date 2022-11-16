@@ -42,25 +42,7 @@ Testet das für euch wieder und versucht es, bei der Bearbeitung eurer Hausaufga
 
 Im Rahmen des Kurses sollt ihr ein eigenes Projekt in Form einer Website entwickeln. Hierfür gibt es eine Reihe an Formalitäten, die ihr erfüllen müsst, um ein Zertifikat und die ECTS erhalten zu können.
 
-### Form
-
-- Abgabe einer **Website** zu einem frei gewählten Thema
-  - alle drei im Kurs gelernten Sprachen (**HTML, CSS und JS**) müssen **sinnvoll** eingesetzt sein
-- Präsentation der Website
-
-### Abgabe
-
-- Link zur gehosteten Website
-- Zip-Archiv, das Website enthält
-- **Präsentation 27.06.2022 18:00 - 20:00 Uhr**
-- **Abgabe: 01.07.2022 20:00 Uhr**
-
-### Bewertungskriterien
-
-- Einhalten der Formalitäten
-- Engagement und Selbstständigkeit
-- maximal 2 Fehltermine im Kurs
-- regelmäßige Teilnahme an unserer Evaluation
+[Weitere Informationen zur Form, Abgabe und den Bewertungskriterien, findet ihr auf der Projektseite](../project.md).
 
 ## HTML - Live-Coding & Theorie
 
