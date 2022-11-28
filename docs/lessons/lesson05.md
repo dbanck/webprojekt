@@ -15,13 +15,13 @@ import ProminentLink from '@site/src/components/Docs/ProminentLink';
 
 ## Weekly 🔥 tips
 
-_Google Fonts_
+_Web Fonts_
 
 Da nicht sichergestellt werden kann, dass die Nutzer unserer Website alle notwendigen Schriftarten auf ihrem Gerät installiert haben, werden heute meist Schriftarten mit der Website ausgeliefert und auf das Gerät geladen. So erhalten alle Anwender das gleiche Ergebnis unserer Website. Diese eingebundenen Schriften können lokal neben anderen Inhalten wie Bildern liegen, oder von einem WebService geladen werden.
 
 Ein solcher WebService ist bspw. [Bunny Fonts](https://fonts.bunny.net/). Hier finden sich etliche Schriftarten, die wir auf unserer Website verwenden können. Das Interface lässt uns die passendste Schriftart finden und auswählen.
 
-Eingebunden wird die Schriftart dann über ein `<link>`-Element (genau wie unsere CSS-Dateien) und eine entsprechende Regel im CSS. Hier setzen wir die `font-family` auf den entsprechenden Namen der Schrift. Wir sind diese Schritte gemeinsam durchgegangen, aber die Google Fonts Seite beschreibt das notwendige Vorgehen sehr gut und macht es auch sehr einfach.
+Eingebunden wird die Schriftart dann über ein `<link>`-Element (genau wie unsere CSS-Dateien) und eine entsprechende Regel im CSS. Hier setzen wir die `font-family` auf den entsprechenden Namen der Schrift. Wir sind diese Schritte gemeinsam durchgegangen, aber die Bunny Fonts Seite beschreibt das notwendige Vorgehen sehr gut und macht es auch sehr einfach.
 
 ## CSS
 
