@@ -75,6 +75,13 @@ const config = {
             position: "left",
             label: "Infos",
           },
+          {
+            position: "left",
+            label: "GitHub Code",
+            href: "https://github.com/dbanck/webprojekt-wise22",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
+          },
         ],
       },
       footer: {
