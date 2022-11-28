@@ -2,7 +2,7 @@
 title: "Lektion 05: Webentwicklung"
 sidebar_label: "05: Webentwicklung"
 sidebar_position: 5
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
@@ -19,7 +19,7 @@ _Google Fonts_
 
 Da nicht sichergestellt werden kann, dass die Nutzer unserer Website alle notwendigen Schriftarten auf ihrem Gerät installiert haben, werden heute meist Schriftarten mit der Website ausgeliefert und auf das Gerät geladen. So erhalten alle Anwender das gleiche Ergebnis unserer Website. Diese eingebundenen Schriften können lokal neben anderen Inhalten wie Bildern liegen, oder von einem WebService geladen werden.
 
-Ein solcher WebService ist bspw. [Google Fonts](https://fonts.google.com/). Hier finden sich etliche Schriftarten, die wir auf unserer Website verwenden können. Das Interface lässt uns die passendste Schriftart finden und auswählen.
+Ein solcher WebService ist bspw. [Bunny Fonts](https://fonts.bunny.net/). Hier finden sich etliche Schriftarten, die wir auf unserer Website verwenden können. Das Interface lässt uns die passendste Schriftart finden und auswählen.
 
 Eingebunden wird die Schriftart dann über ein `<link>`-Element (genau wie unsere CSS-Dateien) und eine entsprechende Regel im CSS. Hier setzen wir die `font-family` auf den entsprechenden Namen der Schrift. Wir sind diese Schritte gemeinsam durchgegangen, aber die Google Fonts Seite beschreibt das notwendige Vorgehen sehr gut und macht es auch sehr einfach.
 
