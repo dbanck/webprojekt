@@ -31,15 +31,6 @@ Wir haben uns einen Online-Shop als Beispiel genommen und daran mehrere Anwendun
 
 Alle Ergebnisse dieser Live-Coding-Session findet ihr wieder auf GitHub. Schaut euch das gerne nochmal an und spielt damit herum.
 
-## State of JS
-
-Ihr habt heute den Einstieg in eine der weitverbreitesten und meistgenutzten Programmiersprachen der Welt gemacht. Basti schreibt in seinem Job fast nur noch JavaScript, da Frontend-Frameworks wie [React](https://reactjs.org/) existieren, mit denen komplette Websites in JS erzeugt und dynamisch durch Nutzereingaben, neuen Daten vom Server o.Ä. verändert werden.
-Hier wird allerdings weiterhin eine Syntax verwendet, die sehr nah an HTML und CSS ist, wie wir es gelernt haben.
-
-Auch wenn das nächste Frontend-Framework nicht in JS geschrieben sein sollte, HTML und CSS sind und bleiben die Basis aller Webentwicklung! Damit fundierte Basis für die Zukunft.
-
-Neben der Nutzung im Browser wie wir JavaScript genutzt haben, haben wir euch außerdem noch kurz einen Ausflug in die Welt von [NodeJS](https://nodejs.org/en/) gezeigt. NodeJS ist ein aus dem Browser "herausgerissenes" JavaScript, das auf dem Server laufen kann. Auch NodeJS gewinnt immer weiter an Zuspruch. Wenn ihr also Frontend-JS schreiben könnt, ist der Umstieg oder die Erweiterung des Portfolios auf Backend-Code nicht mehr weit.
-
 ## Hausaufgabe
 
 Als Hausaufgabe arbeitet bitte an eurer eigenen Website. In den nächsten Terminen werden wir nur noch wenig neuen Inhalt erarbeiten und vielmehr eure konkreten Fragen beantworten. Daher bereitet Fragen, die sich ergeben sollten, für die nächste Session vor. Stellt aber auch gerne weiter vorab Fragen im Channel, ihr werdet jetzt alle über ähnliche Probleme stolpern.
