@@ -2,7 +2,7 @@
 title: "Lektion 08: Responsive Webdesign"
 sidebar_label: "08: Responsive Webdesign"
 sidebar_position: 8
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
@@ -60,13 +60,7 @@ Anschließend haben wir mit Hilfe von [Media Queries](https://developer.mozilla.
 
 Den Code dafür findet ihr auch wieder auf GitHub. Da wir hier moderne Layout-Eigenschaften von CSS (Flexbox) nutzen, müssen wir hier tatsächlich relativ wenig anpassen. Das ist auch der festzustellende Trend der letzten Jahre. CSS wird immer flexibler, so dass viele Dinge bereits out-of-the-box auf unterschiedlichen Gerätebreiten funktioniert. An einigen Stellen muss oder will man aber gezielt nachhelfen.
 
-### Container Queries
-
-Abschließend haben wir noch einen kurzen Ausblick in die Zukunft gewagt und uns [CSS Container-Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) angeschaut. Diese Art der Queries ist noch nicht stabil und daher nicht veröffentlicht. Sie sollen aber die Anpassung von Gestaltung nicht wie wir heute abhängig von der **Bildschirmbreite** sondern in Bezug auf die **Containerbreite** (also die Breite des umgebenden Elements) ermöglichen. Dies entspricht der modernen Denkweise von **Komponenten**, die an unterschiedlichen Stellen der Website eingebunden werden können und daher verschiedene Breiten einnehmen können.
-
-Einen ersten Einblick könnt ihr hier gewinnen: https://www.youtube.com/watch?v=JsN_iE3prm0
-
-## Fragen und Antworten und Freie Projektarbeit
+## Freie Projektarbeit
 
 Dieser Teil kann hier nicht zusammengefasst werden. Ihr hattet die Möglichkeit im Rahmen der Live-Session Fragen zu stellen, die ihr konkret zu euren Projekten habt. Wir haben hier versucht möglichst viele zu beantworten.
 
