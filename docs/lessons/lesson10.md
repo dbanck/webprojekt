@@ -21,7 +21,7 @@ Da dies die letzte Session für den Kurs ist (abgesehen von den Präsentationen)
 
 ### Informationen aufsaugen
 
-Es gibt online unzählige Möglichkeiten, sich weiter im Feld der Webentwicklung zu belehren. Lest Blogposts, folgt “berühmten” Entwicklern in Social Media Portalen (meistens auf Twitter: [@css](https://twitter.com/css), [@bastibuck](https://twitter.com/bastibuck)), abonniert einen Newsletter oder hört Podcasts zum Thema ([Syntax FM](http://syntax.fm/)).
+Es gibt online unzählige Möglichkeiten, sich weiter im Feld der Webentwicklung zu belehren. Lest Blogposts, folgt “berühmten” Entwicklern in Social Media Portalen (meistens auf Twitter: [@css](https://twitter.com/css), [@bastibuck](https://twitter.com/bastibuck), [@dbanck](https://twitter.com/dbanck)), abonniert einen Newsletter oder hört Podcasts zum Thema ([Syntax FM](http://syntax.fm/)).
 
 ### Geführt/gemeinsam lernen
 
