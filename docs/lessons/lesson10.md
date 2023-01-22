@@ -35,7 +35,15 @@ Nutzt die Eigenschaft von Websites, dass euer Browser den Code interpretieren mu
 
 ### Coding-Challenges
 
-Auf Social Media Portalen wird unter dem Hashtag [#100daysofcode](https://www.100daysofcode.com/) öffentlich der persönlich Fortschritt einer 100-Tage Challenge geteilt. So kann man sich mit anderen Entwicklern verknüpfen und Inspiration oder Austausch finden. Die bereits oben geteilte 30-Tage JS Challenge ist ähnlich gelagert. Übung macht den Meister!
+Übung macht den Meister!
+
+#### 100 days of code
+
+Auf Social Media Portalen wird unter dem Hashtag [#100daysofcode](https://www.100daysofcode.com/) öffentlich der persönlich Fortschritt einer 100-Tage Challenge geteilt. So kann man sich mit anderen Entwicklern verknüpfen und Inspiration oder Austausch finden. Die bereits oben geteilte 30-Tage JS Challenge ist ähnlich gelagert.
+
+#### i code this
+
+Eine sehr ähnliche Idee wie oben, aber mit täglichen Herausforderungen. Hier werden konkrete Beispiele gezeigt, die man in HTML und CSS nachbauen kann. [icodethis](https://www.icodethis.com/).
 
 ### Kleine Probleme mit Code lösen
 
