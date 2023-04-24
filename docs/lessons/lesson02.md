@@ -30,7 +30,7 @@ import ProminentLink from '@site/src/components/Docs/ProminentLink';
   - Minimap zur schnelleren Navigation einer Datei
 - Um den Editor einzurichten, müssen wir im Prinzip nichts tun, da dieser bereits sehr gut vordefiniert installiert wurde
 - über Erweiterungen und unendliche viele Einstellungen können wir uns den Editor aber nach und nach an eigene Bedürfnisse anpassen
-  - eine Erweiterung empfehle ich: **Prettier**
+  - eine Erweiterung empfehlen wir: **Prettier**
     - Installation über die Sidebar
     - in den Settings `Format on save` anhaken
     - Default Formatter: `esbenp.prettier-vscode`
@@ -197,6 +197,8 @@ Der Grund für die unterschiedliche Darstellung ist, dass die Browserhersteller 
 Wichtig ist nur, dass wir durch Schreiben von HTML heute **keine** Gestaltung beeinflusst haben. HTML ist lediglich für die Auszeichnung von Inhalten zuständig. Es enthält **keine** Informationen zur Gestaltung.
 
 ## Hausaufgabe
+
+> Abgabe bis Sonntag, 10 Uhr
 
 Bitte installiert euch in eurem VS Code ebenfalls die **Prettier-Extension** und richtet es so ein, dass das Dokument beim Speichern automatisch formatiert wird. Wenn ihr einen anderen Editor verwenden solltet, kann es sein, dass es eine ähnliche Erweiterung für Prettier gibt.
 Stellt so oder so sicher, dass eure Formatierung leserlich bleibt, es hilft nicht nur euch bei der Entwicklung, Fehler zu vermeiden und schneller zu arbeiten, sondern hilft auch anderen Entwicklern, sich schnell zurecht zu finden, wenn ihr mal Hilfe benötigt oder wir eure Hausaufgaben anschauen.

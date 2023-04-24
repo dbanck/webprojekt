@@ -168,6 +168,8 @@ Wir werden einige Werkzeuge benötigen, um unsere eigene Website zu programmiere
 
 ## Hausaufgabe
 
+> Abgabe bis Sonntag, 10 Uhr
+
 Bitte richtet euch euren Rechner so ein, dass ihr
 
 1. einen Editor installiert habt
