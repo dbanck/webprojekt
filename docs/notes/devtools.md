@@ -1,7 +1,7 @@
 ---
 title: Developer Tools
 sidebar_position: 2
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 ## Firefox
