@@ -23,7 +23,7 @@ Ein Spiel zur Positionierung mit FlexBox ist [Flexbox Froggy](https://flexboxfro
 
 Ein weiteres CSS-Spiel ist [CSS Diner](http://flukeout.github.io/). Hierbei muss man die korrekten CSS-Selektoren schreiben, um auf einem Tisch platzierte Gegenstände auszuwählen. Neben den Selektoren, die wir bereits gelernt haben, werden hier auch fortgeschrittene Selektoren spielerisch vermittelt, so dass man am Ende “CSS rockt”.
 
-Darüber hinaus habe ich euch noch drei weitere Spiele ganz kurz vorgestellt. Diese nutzen und vermitteln alle JavaScript, daher bin ich vor der heutigen Session da auch nicht viel mehr drauf eingegangen. Schaut euch das bei Interesse gerne an. Leider ist kein Spiel dabei, was gezielt Manipulation des HTML vermittelt, wie wir es heute gelernt haben.
+Darüber hinaus haben wir euch noch drei weitere Spiele ganz kurz vorgestellt. Diese nutzen und vermitteln alle JavaScript, daher sind wir vor der heutigen Session da auch nicht viel mehr drauf eingegangen. Schaut euch das bei Interesse gerne an. Leider ist kein Spiel dabei, was gezielt Manipulation des HTML vermittelt, wie wir es heute gelernt haben.
 
 In [WarriorJS](https://warriorjs.com/campaigns/wnLTRH_K6VP) muss eine einfache Spielfigur ebenfalls ans Ende eines Ganges gelenkt werden, ohne dabei zu sterben. Hier geht es aber eher darum ein Problem zu lösen, als die Grundlagen zu lernen. Gleiches gilt für [Elevator Saga](http://play.elevatorsaga.com/#challenge=1), wo die Software eines Fahrstuhls optimiert werden muss, um in möglichst wenig Zeit möglichst viele Passagiere zu befördern.
 
