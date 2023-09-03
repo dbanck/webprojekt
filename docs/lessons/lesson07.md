@@ -2,7 +2,7 @@
 title: "Lektion 07: JS II"
 sidebar_label: "07: JS II"
 sidebar_position: 7
-sidebar_class_name: none
+sidebar_class_name: hidden
 ---
 
 import Subline from '@site/src/components/Docs/Subline';

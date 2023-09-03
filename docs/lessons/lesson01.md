@@ -2,7 +2,7 @@
 title: "Lektion 01: Auftakt"
 sidebar_label: "01: Auftakt"
 sidebar_position: 1
-sidebar_class_name: none
+sidebar_class_name: hidden
 ---
 
 import Subline from '@site/src/components/Docs/Subline';

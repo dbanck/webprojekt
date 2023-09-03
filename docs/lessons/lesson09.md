@@ -2,7 +2,7 @@
 title: "Lektion 09: CSS Frameworks"
 sidebar_label: "09: CSS Frameworks"
 sidebar_position: 9
-sidebar_class_name: none
+sidebar_class_name: hidden
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
