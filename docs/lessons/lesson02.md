@@ -80,7 +80,7 @@ Ihren Ursprung hat diese Sprache im wissenschaftlichen Umfeld. Universitäten we
 
 ### Beispiel wissenschaftliches Paper
 
-Als Beispiel haben wir die Einleitung eines [wissenschaftliches Papers](https://docs.google.com/document/d/13Vo2cjvfwVmbJDnoQXPgYpoStHB0mkMbUY9Rz4iOpUI) zu Covid-19 zunächst ohne, dann mit minimaler und dann mit korrekter Auszeichnung (Markup) betrachtet.
+Als Beispiel haben wir die Einleitung eines [wissenschaftliches Papers](https://docs.google.com/document/d/13Vo2cjvfwVmbJDnoQXPgYpoStHB0mkMbUY9Rz4iOpUI) zur Evolution von HTML zunächst ohne, dann mit minimaler und dann mit korrekter Auszeichnung (Markup) betrachtet.
 
 - Es wurde sehr deutlich, dass ein Text ohne jegliche Formatierung schlecht zu lesen ist
   - Formatierung von Texten findet sich überall und strukturiert Inhalte: Zeitung, wissenschaftliche Arbeiten, Websites, Werbung, …
