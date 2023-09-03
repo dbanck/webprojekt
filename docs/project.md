@@ -17,8 +17,8 @@ Im Rahmen des Kurses sollt ihr ein eigenes Projekt in Form einer Website entwick
 
 - Link zur gehosteten Website per Mattermost an Basti oder Daniel senden
 - Zip-Archiv, das Website enthält, per Mattermost an Basti oder Daniel senden
-- **Präsentation 26.06.2023 18:00 - 20:00 Uhr**
-- **Abgabe: 30.06.2023 20:00 Uhr**
+- **Präsentation 29.01.2024 18:00 - 20:00 Uhr**
+- **Abgabe: 02.02.2024 20:00 Uhr**
 
 ### Bewertungskriterien
 
