@@ -2,7 +2,7 @@
 id: editors
 title: Code Editors
 sidebar_position: 3
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 ## VS Code
