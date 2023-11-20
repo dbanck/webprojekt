@@ -2,7 +2,7 @@
 title: "Lektion 05: Webentwicklung"
 sidebar_label: "05: Webentwicklung"
 sidebar_position: 5
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
@@ -12,10 +12,6 @@ import Subline from '@site/src/components/Docs/Subline';
 import ProminentLink from '@site/src/components/Docs/ProminentLink';
 
 <ProminentLink link="https://docs.google.com/presentation/d/14EoCps17dZHYhCic13CM6KHBDhbAWhxDDTiuiPZs7M4">Folien</ProminentLink>
-
-## Video
-
-<ProminentLink link="https://www.youtube.com/watch?v=hgHqdIEhaQk">Lesson 05</ProminentLink>
 
 ## Weekly 🔥 tips
 
