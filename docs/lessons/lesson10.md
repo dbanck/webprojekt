@@ -2,7 +2,7 @@
 title: "Lektion 10: Nächste Schritte"
 sidebar_label: "10: Nächste Schritte"
 sidebar_position: 10
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
@@ -58,12 +58,6 @@ Ihr habt in diesem Kurs jetzt die Grundlagen gelernt, um die nächsten Schritte 
 ### Weiterführende Links
 
 Die [Roadmap](https://roadmap.sh/frontend) und weitere, spannenden Inhalte findet ihr in den [Notizen](/docs/notes/next)
-
-## Live-Coding
-
-Wie immer ist dieser Teil schwer zu vermitteln. Daher schaut euch am besten das Ergebnis auf GitHub an.
-
-Wir haben in dieser Lektion gesehen, wie man mittels JavaScript aus Daten HTML erzeugen kann, so dass man beim Hinzufügen neuer Blogbeiträge nicht das HTML verändern muss. In einem echten Beispiel kämen die Blogbeiträge vermutlich nicht direkt aus der JS-Datei, sondern bspw. über eine Schnittstelle zu einem anderen System oder aus einer gesonderten Datei, die solche Datenstrukturen enthalten kann.
 
 ## Projektarbeit
 
