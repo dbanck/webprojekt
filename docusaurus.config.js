@@ -11,15 +11,17 @@ function filterSidebarItems(
     return items;
   }
 
-  return items.map((item) => {
-    if (item.type === "category") {
-      return {
-        ...item,
-        items: item.items.filter((item) => item.className !== "hidden"),
-      };
-    }
-    return item;
-  });
+  return items
+    .filter((item) => item.className !== "hidden") // hide toplevel
+    .map((item) => {
+      if (item.type === "category") {
+        return {
+          ...item,
+          items: item.items.filter((item) => item.className !== "hidden"), // hide sub-category items
+        };
+      }
+      return item;
+    });
 }
 
 /** @type {import('@docusaurus/types').Config} */
