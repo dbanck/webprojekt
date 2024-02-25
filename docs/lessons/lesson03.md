@@ -121,29 +121,11 @@ Die **Werte**, die Eigenschaften annehmen sollen, sind ebenfalls vorgegeben und 
 
 _Dieser Abschnitt des Kurses ist schwer wiederzugeben. Wir wollen nur die wichtigsten Erkenntnisse zusammenfassen._
 
-Als erstes haben wir gelernt, welche drei verschiedenen Wege sowie deren Vor- und Nachteile es gibt, um einer HTML-Seite Gestaltung mittels CSS hinzuzufügen.
+Als erstes haben wir gelernt, über welchen Weg man einer HTML-Seite Gestaltung mittels CSS hinzuzufügen kann.
 
-- inline
-
-  - direkt am HTML-Element wird CSS definiert
-  - Nachteile
-    - mehrere Elemente mit gleichem Style duplizieren Code
-    - Aufwändig in der Anpassbarkeit
-    - Unübersichtlich
-    - Keine Trennung von Inhalt und Gestaltung
-
-- mittels `<style>` Element
-
-  - CSS-Regeln innerhalb eines `<style>` Element im `<head>` eines HTML-Dokuments
-  - ermöglichen, dass eine Regel mehrere Elemente gleichzeitig styled
-  - Nachteile
-    - andere HTML-Dokumente haben nicht den gleichen Stil (nur durch Duplizieren)
-    - keine Trennung von Inhalt und Gestaltung
-
-- eingebundene Datei
+- Als eingebundene Datei
   - CSS-Regeln in separater Datei, die dann in alle HTML-Dateien eingebunden wird
   - ermöglicht gleichen Stil über verschiedene Seiten hinweg
-  - definitiv die beste der drei Lösungen; auch für euer Projekt
 
 Anschließend haben wir noch einige einfache CSS-Eigenschaften/-Properties kennengelernt.
 

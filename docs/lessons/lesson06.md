@@ -59,13 +59,11 @@ Anschließend haben wir einige der für eine Programmiersprache spezifischen Bes
 
 Wie immer ist es sehr schwer, das Live Coding hier zusammenzufassen. Wir haben gemeinsam die ersten Schritte in JavaScript gemacht und dabei die Basics kennengelernt.
 
-Dabei haben wir zwei Möglichkeiten der Einbindung von JavaScript in unsere HTML-Seite kennengelernt. An einem einfachen Beispiel haben wir gelernt, wie man JavaScript in eine Seite einbindet, so dass es jedem Besucher unserer Seite ausgeliefert und ausgeführt wird. Hier gibt es genau wie bei CSS auch verschiedene Möglichkeiten:
+Dabei haben wir die Einbindung von JavaScript in unsere HTML-Seite kennengelernt. An einem einfachen Beispiel haben wir gelernt, wie man JavaScript in eine Seite einbindet, so dass es jedem Besucher unserer Seite ausgeliefert und ausgeführt wird.
 
-- `<script>`...`</script>` Tag im `<head>` des Dokuments
 - als externe Datei, die über `<script src="func.js"></script>` geladen wird
-  - dies ist die empfohlene Einbindungsform
 
-Diese zwei Methoden der Einbindung von JS hat die gleichen Vor- und Nachteile wie das Einbinden von CSS: In einem Script-Tag im Head des Dokuments ist JavaScript isoliert vom restlichen Inhalt, aber wir müssen es in jedem Dokument wieder einbinden und ggf. an mehreren Stellen anpassen. Eine zentrale, externe Datei, die wir einbinden, ermöglicht hingegen Anpassungen an einer zentralen Stelle und eine zusätzliche Trennung von Inhalt und Logik. Daher ist letztere die empfohlene Form der Einbindung.
+Eine zentrale, externe Datei, die wir einbinden, ermöglicht hingegen Anpassungen an einer zentralen Stelle und eine zusätzliche Trennung von Inhalt und Logik.
 
 Weitere Themen waren:
 
