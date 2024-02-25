@@ -58,16 +58,6 @@ Unsere Empfehlung wäre folgende Struktur, ihr könnt aber auch davon abweichen.
 
 ![Empfohlene Ordnerstruktur](/img/lessons/03/folder.png)
 
-### Inline vs. Block-Elemente
-
-HTML-Elemente sind in zwei Kategorien geteilt: **Block-Elemente** und **Inline-Elemente**.
-
-![Erklärung von Block-Elementen und Inline-Elementen](/img/lessons/03/inline-block.jpg)
-
-Wir haben beides schon kennengelernt. Überschrift und Absätze sind typische Beispiele für Block-Elemente. Sie nehmen (standardmäßig) die volle Breite ein, so dass nachfolgende Elemente in die nächste Zeile rutschen.
-
-Inline-Elemente dagegen werden, wie der Name schon vermuten lässt, in der gleichen Zeile dargestellt, sie nehmen nur so viel Platz ein, wie sie benötigen. Beispielsweise werden Links, Hervorhebungen und Betonungen einfach im Fließtext dargestellt. Hierzu zählen auch Bilder.
-
 ### Styling-Vorbereitung
 
 Wir wollen das Rezept ein wenig anders gestalten; hauptsächlich wollen wir einen Bereich anpassen: den Header. So soll er aussehen:
