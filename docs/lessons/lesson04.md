@@ -178,6 +178,33 @@ Da sich in unserem HTML-Beispiel weiter oben die anderen `<strong>` innerhalb ei
 
 Wir haben damit gelernt, dass man durch bestimmte Syntax die Elemente, die wir verändern wollen, noch gezielter einschränken kann. Viele weitere Beispiele für diese Syntax findet sich ebenfalls bei [MDN](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Selectors).
 
+### Vererbung
+
+Das Konzept der "Vererbung" beschreibt die Logik, mit der für jedes Element bestimmt wird, welchen Wert eine Eigenschaft annimmt. Hier gibt es zwei Kategorien:
+
+- vererbte Eigenschaften
+- nicht-vererbete Eigenschaften
+
+Eigenschaften, die vererbt werden können, gehen von dem Eltern-Element an das Kindelement über. Dies gilt für explizit gesetze wie auch Standardwerte. Hierzu gehören bspw. die Textfarbe `color`. Wenn also ein Element die Eigenschaft `color: red` gesetzt bekommt, wird diese Farbe an alle Kindelemente (egal in welcher Generation/Tiefe) vererbt. Also alle HTML-Elemente, die innerhalb dieses Elements existieren, werden mit einem Text in **rot** dargestellt.
+
+Nicht-vererbte Eigenschaften beziehen sich immer nur auf das Elternelement. Kindelemente erhalten - wenn nicht anderweitig explizit angegeben - den Standardwert wie in der Sprache CSS definiert. Bspw. ist der default Wert für die `border`-Eigenschft `none`. Ein Element hat also keinen Rahmen, außer explizit angegeben.
+Auch wenn ein Elternelement einen Rahmen bekommen, wird dieser Wert nicht weiter vererbt.
+
+```html
+<p>This paragraph has <em>emphasized text</strong> in it.</p>
+```
+
+```css
+p {
+  color: green;
+  border: 1px solid red;
+}
+```
+
+Der obige Code erzeugt also einen Absatz, der einen roten Rahmen hat und der gesamte Text, inklusive des `<em>`, grün ist. Das `<em>` bekommt keinen Rahmen.
+
+Siehe auch mehr Infos auf [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Inheritance)
+
 ### Spezifität
 
 Dieses schwer auszusprechende Wort, vor allem im Englischen "specificity", erklärt, warum eine CSS-Regel durch eine andere überschrieben wird. Es gibt fest definierte Regeln, wie die Bestimmung der einzelnen Spezifitätswerte funktioniert. Das ist [hier](https://dev.to/emmabostian/css-specificity-1kca) zig Mal besser erklärt, als wir es in unserer Kurszeit könnten. Daher lest gerne mal nach. Die grundlegenden Regeln haben wir aber gemeinsam kennengelernt:
