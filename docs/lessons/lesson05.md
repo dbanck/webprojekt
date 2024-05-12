@@ -2,7 +2,7 @@
 title: "Lektion 05: Webentwicklung"
 sidebar_label: "05: Webentwicklung"
 sidebar_position: 5
-sidebar_class_name: hidden
+sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
@@ -33,9 +33,9 @@ Abschließend haben wir unser Wissen noch in ein paar kleinen Tests erneut getes
 
 ## Figma
 
-Gemeinsam haben wir noch einmal in [Figma](https://www.figma.com/) geschaut, wo wir sehen konnten, dass wir hier nicht nur unsere Website designen können, sondern auch etliche CSS Eigenschaften direkt nachschauen und so in unseren Code übernehmen können. So ist sichergestellt, dass wir bspw. exakt die gleiche Farbe verwenden, wie der Designer - in diesem Fall wir selbst - ausgesucht hat.
+Gemeinsam haben wir noch einmal in [Figma](https://www.figma.com/) geschaut, wo wir sehen konnten, dass wir hier nicht nur unsere Website designen können, sondern auch etliche CSS Eigenschaften über bspw. das Plugin **Inspect Styles** nachschauen und so in unseren Code übernehmen können. So ist sichergestellt, dass wir bspw. exakt die gleiche Farbe verwenden, wie der Designer - in diesem Fall wir selbst - ausgesucht hat.
 
-Außerdem können wir in Figma auch einige CSS Eigenschaften kennenlernen, ohne diese zu googlen und Dokumentation zu lesen. Dies haben wir am Beispiel von Schlagschatten `(box-shadow)` und Drehungen `(transform: rotate())` gesehen.
+Außerdem können wir in Figma über dieses Plugin auch einige CSS Eigenschaften kennenlernen, ohne diese zu googlen und Dokumentation zu lesen. Dies haben wir am Beispiel von Schlagschatten `(box-shadow)` und Drehungen `(transform: rotate())` gesehen.
 
 **Aber eine Warnung!** Übernehmt nicht alle CSS-Anweisungen blind. Das Tool funktioniert grundlegend anders, als eure Website. Vor allem die Positionierung von Elementen ist komplett anders, da diese per Drag’n’Drop platziert werden und nicht abhängig von anderen Elementen ausgerichtet werden. Daher: keine Positionsangaben übernehmen; Farben, Schriftgrößen, Abstände, Größen, etc. gerne dort ablesen und übernehmen.
 
