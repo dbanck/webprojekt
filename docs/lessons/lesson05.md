@@ -2,7 +2,7 @@
 title: "Lektion 05: Webentwicklung"
 sidebar_label: "05: Webentwicklung"
 sidebar_position: 5
-sidebar_class_name: none
+sidebar_class_name: hidden
 ---
 
 import Subline from '@site/src/components/Docs/Subline';

@@ -80,7 +80,7 @@ const config = {
           {
             position: "left",
             label: "GitHub Code",
-            href: "https://github.com/dbanck/webprojekt-sose24",
+            href: "https://github.com/dbanck/webprojekt-wise24",
             className: "header-github-link",
             "aria-label": "GitHub repository",
           },
