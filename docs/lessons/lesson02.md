@@ -215,5 +215,4 @@ Wichtig ist nur, dass **alle heute gelernten HTML-Elemente** vorhanden sind. Ihr
   - nutzt bspw. [Unsplash](https://unsplash.com/s/photos/pasta)
 - Sendet uns eure HTML-Datei bitte als Nachricht im Channel in Mattermost
 - In diesem Video findet ihr die Inhalte der ersten beiden Lektionen noch einmal gut zusammengefasst https://youtu.be/SF_Xl5TOGlY - schaut es euch gerne an, wenn ihr einige Dinge noch einmal wiederholen und vertiefen wollt
-- Wer will, kann auch zusätzlich die Aufgabe von Colt (Tutor aus dem Video) machen, die er am Ende stellt und ebenfalls mit abgeben. Wir werden uns beides anschauen und kurzes Feedback geben
 - Wenn ihr Fragen haben solltet, stellt sie frühzeitig im Channel
