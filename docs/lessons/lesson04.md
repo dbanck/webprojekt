@@ -2,7 +2,6 @@
 title: "Lektion 04: CSS"
 sidebar_label: "04: CSS"
 sidebar_position: 4
-sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';

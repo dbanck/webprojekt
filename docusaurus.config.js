@@ -3,21 +3,45 @@
 
 const { themes } = require("prism-react-renderer");
 
+const HIDDEN_ROUTES = [
+  // "/docs/lessons/lesson01",
+  // "/docs/lessons/lesson02",
+  // "/docs/lessons/lesson03",
+  // "/docs/lessons/lesson04",
+  // "/docs/lessons/lesson05",
+  // "/docs/lessons/lesson06",
+  // "/docs/lessons/lesson07",
+  // "/docs/lessons/lesson08",
+  "/docs/lessons/lesson09",
+  "/docs/lessons/lesson10",
+  "/docs/lessons/lesson11",
+
+  // "/docs/notes/devtools",
+  // "/docs/notes/editors",
+  "/docs/notes/next",
+
+  "/docs/summary",
+];
+
 function filterSidebarItems(items) {
   if (process.env.NODE_ENV === "development") {
     return items;
   }
 
   return items
-    .filter((item) => item.className !== "hidden") // hide toplevel
-    .map((item) => {
-      if (item.type === "category") {
+    .filter((item) => !HIDDEN_ROUTES.includes(`/docs/${item.id}`)) // hide toplevel
+    .map((potentiallyACategory) => {
+      if (potentiallyACategory.type === "category") {
         return {
-          ...item,
-          items: item.items.filter((item) => item.className !== "hidden"), // hide sub-category items
+          ...potentiallyACategory,
+          // hide sub-category items
+          items: potentiallyACategory.items.filter(
+            (item) => !HIDDEN_ROUTES.includes(`/docs/${item.id}`)
+          ),
         };
       }
-      return item;
+
+      return potentiallyACategory;
     });
 }
 
@@ -32,6 +56,18 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "dbanck", // Usually your GitHub org/user name.
   projectName: "webprojekt", // Usually your repo name.
+
+  plugins: [
+    [
+      require.resolve("docusaurus-lunr-search"),
+      {
+        languages: ["en", "de"], // language codes
+        excludeRoutes: HIDDEN_ROUTES,
+        highlightResult: true,
+        disableVersioning: true,
+      },
+    ],
+  ],
 
   presets: [
     [

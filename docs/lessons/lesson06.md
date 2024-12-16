@@ -2,7 +2,6 @@
 title: "Lektion 06: JS I"
 sidebar_label: "06: JS I"
 sidebar_position: 6
-sidebar_class_name: none
 ---
 
 import Subline from '@site/src/components/Docs/Subline';

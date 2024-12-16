@@ -2,7 +2,6 @@
 id: summary
 title: Linksammlung zum Ende des Kurses
 sidebar_position: 4
-sidebar_class_name: hidden
 ---
 
 ## Lektionen

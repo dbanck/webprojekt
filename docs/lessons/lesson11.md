@@ -2,7 +2,6 @@
 title: "Lektion 11: Präsentationen"
 sidebar_label: "11: Präsentationen"
 sidebar_position: 11
-sidebar_class_name: hidden
 ---
 
 import Subline from '@site/src/components/Docs/Subline';
