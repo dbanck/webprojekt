@@ -1,12 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
 
-function filterSidebarItems(
-  /** @type {import('@docusaurus/plugin-content-docs/src/sidebars/types').NormalizedSidebar} */ items
-) {
+function filterSidebarItems(items) {
   if (process.env.NODE_ENV === "development") {
     return items;
   }
@@ -91,8 +88,8 @@ const config = {
         copyright: `Made by Basti & Daniel. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.github,
+        darkTheme: themes.dracula,
       },
     }),
 };
