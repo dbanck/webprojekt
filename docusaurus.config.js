@@ -12,7 +12,7 @@ const HIDDEN_ROUTES = [
   // "/docs/lessons/lesson06",
   // "/docs/lessons/lesson07",
   // "/docs/lessons/lesson08",
-  "/docs/lessons/lesson09",
+  // "/docs/lessons/lesson09",
   "/docs/lessons/lesson10",
   "/docs/lessons/lesson11",
 
