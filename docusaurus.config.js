@@ -14,13 +14,11 @@ const HIDDEN_ROUTES = [
   // "/docs/lessons/lesson08",
   // "/docs/lessons/lesson09",
   // "/docs/lessons/lesson10",
-  "/docs/lessons/lesson11",
-
+  // "/docs/lessons/lesson11",
   // "/docs/notes/devtools",
   // "/docs/notes/editors",
   // "/docs/notes/next",
-
-  "/docs/summary",
+  // "/docs/summary",
 ];
 
 function filterSidebarItems(items) {
